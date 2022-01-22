@@ -1,23 +1,22 @@
 import React from "react";
 import background from "../assets/background.jpg";
 
-const NewsCard = () => {
+const NewsCard = ({ article }) => {
   return (
-    <div>
-      <div className="w-56">
-        <p className="text-3xl font-semibold py-8">LATEST NEWS/</p>
-        <div>
-          <div>
-            <img className="w-full" src={background} alt="" />
+    <div className="flex justify-between">
+      {article.map((card) => {
+        return (
+          <div style={{ background: "#DDDDDD" }} className="w-56">
+            <div className="px-2">
+              <div>
+                <img className="w-full" src={background} alt="" />
+              </div>
+              <p className="pt-10 pb-5">{card.date}</p>
+              <p>{card.content}</p>
+            </div>
           </div>
-          <p className="pt-10 pb-5">June 6, 2022</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim
-            repellat unde dolorem ipsum deleniti pariatur consequatur
-            perferendis voluptates dolorum.
-          </p>
-        </div>
-      </div>
+        );
+      })}
     </div>
   );
 };
