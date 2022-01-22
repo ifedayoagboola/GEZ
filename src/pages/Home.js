@@ -13,7 +13,32 @@ const NavLinks = [
   { id: "6", link: "CONTACT", route: "/contact" },
   { id: "7", link: "ABOUT GEZ", route: "/about" },
 ];
-
+const article = [
+  {
+    id: "1",
+    date: "June 6, 2022",
+    content:
+      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+  },
+  {
+    id: "2",
+    date: "June 22, 2022",
+    content:
+      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+  },
+  {
+    id: "3",
+    date: "Just now",
+    content:
+      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+  },
+  {
+    id: "4",
+    date: "January 22, 2022",
+    content:
+      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+  },
+];
 const Home = () => {
   return (
     <div>
@@ -68,7 +93,8 @@ const Home = () => {
       </section>
       <section>
         <div className="px-20">
-          <NewsCard />
+          <p className="text-3xl font-semibold py-8">LATEST NEWS/</p>
+          <NewsCard article={article} />
         </div>
       </section>
     </div>
