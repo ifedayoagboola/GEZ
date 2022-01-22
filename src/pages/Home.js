@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div className=" h-5/6 ">
           <img className="w-full h-screen relative" src={background} alt="" />
-          <div className="text-white text-left left-0 inset-y-80 absolute text-6xl font-semibold px-16 leading-tight">
+          <div className="text-white text-left left-0 inset-y-80 absolute text-6xl font-semibold px-20 leading-tight">
             THE GREEN <br />
             ECONOMIC ZONE
             <p className="text-base">
@@ -32,10 +32,10 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section className="">
         <div className="text-3xl flex">
           <div style={{ background: "#EBEBEB", color: "#000" }}>
-            <div className="p-10">
+            <div className="px-20 py-8">
               <p className="text-3xl font-semibold py-8">KIZAD OFFERINGS/</p>
               <p className="font-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,7 +49,7 @@ const Home = () => {
             </div>
           </div>
           <div style={{ background: "#373A36", color: "#fff" }}>
-            <div className="p-10">
+            <div className="px-20 py-8">
               <p className="text-3xl font-semibold py-8">KIZAD OFFERINGS/</p>
               <p className="font-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
