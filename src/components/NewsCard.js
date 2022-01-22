@@ -22,7 +22,7 @@ const NewsCard = ({ article }) => {
         })}
       </div>
       <p className="cursor-pointer text-red-600 text-base font-semibold py-8">
-        READ MORE NEWSsssssss...
+        READ MORE NEWS...
       </p>
     </div>
   );

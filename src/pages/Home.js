@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import background from "../assets/background.jpg";
 import doc from "../assets/doc3.png";
 import ClientsCarousel from "../components/ClientsCarousel";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 import NewsCard from "../components/NewsCard";
@@ -105,7 +106,10 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div style={{ background: "#373A36" }} className="w-full text-center ">
+        <div
+          style={{ background: "#373A36" }}
+          className="w-full text-center mt-10 "
+        >
           <div className="py-16 flex justify-center items-center flex-col">
             <div className="w-20">
               <img className="w-full" src={doc} alt="" />
@@ -118,6 +122,10 @@ const Home = () => {
             </p>
           </div>
         </div>
+      </section>
+
+      <section>
+        <Footer />
       </section>
     </div>
   );
