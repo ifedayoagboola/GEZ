@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import background from "../assets/background.jpg";
 import Navbar from "../components/Navbar";
 
+import NewsCard from "../components/NewsCard";
+
 const NavLinks = [
   { id: "1", link: "ABOUT GEZ", route: "/about" },
   { id: "2", link: "KADUNA", route: "/kaduna" },
@@ -62,6 +64,11 @@ const Home = () => {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="px-20">
+          <NewsCard />
         </div>
       </section>
     </div>
