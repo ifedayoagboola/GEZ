@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import background from "../assets/background.jpg";
+import doc from "../assets/doc3.png";
+import ClientsCarousel from "../components/ClientsCarousel";
 import Navbar from "../components/Navbar";
 
 import NewsCard from "../components/NewsCard";
@@ -18,25 +20,24 @@ const article = [
     id: "1",
     date: "June 6, 2022",
     content:
-      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat.",
   },
   {
     id: "2",
     date: "June 22, 2022",
     content:
-      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id?",
   },
   {
     id: "3",
     date: "Just now",
     content:
-      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam ",
   },
   {
     id: "4",
     date: "January 22, 2022",
-    content:
-      " Repellendus deserunt cum error eaque, debitis culpa nam sintlaudantium id? Placeat, voluptatibus magnam teneturnecessitatibus assumenda facilis ratione.",
+    content: " Repellendus deserunt cum  nam sintlaudantium id? Placeat,",
   },
 ];
 const Home = () => {
@@ -78,7 +79,7 @@ const Home = () => {
           <div style={{ background: "#373A36", color: "#fff" }}>
             <div className="px-20 py-8">
               <p className="text-3xl font-semibold py-8">KIZAD OFFERINGS/</p>
-              <p className="font-light">
+              <p className="font-light font-semibold">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus deserunt cum error eaque, debitis culpa nam sint
                 laudantium id? Placeat, voluptatibus magnam tenetur
@@ -95,6 +96,27 @@ const Home = () => {
         <div className="px-20">
           <p className="text-3xl font-semibold py-8">LATEST NEWS/</p>
           <NewsCard article={article} />
+        </div>
+      </section>
+      <section>
+        <div style={{ background: "#dddddd" }} className="px-20">
+          <p className="text-3xl font-semibold py-6">LATEST NEWS/</p>
+          <ClientsCarousel />
+        </div>
+      </section>
+      <section>
+        <div style={{ background: "#373A36" }} className="w-full text-center ">
+          <div className="py-16 flex justify-center items-center flex-col">
+            <div className="w-20">
+              <img className="w-full" src={doc} alt="" />
+            </div>
+            <p className="text-3xl font-semibold py-8 text-white">
+              DOWNLOAD OUR BROCHURE/
+            </p>
+            <p className="cursor-pointer text-red-600 text-base font-semibold">
+              Click here...
+            </p>
+          </div>
         </div>
       </section>
     </div>
