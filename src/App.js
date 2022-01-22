@@ -1,8 +1,9 @@
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div className="App mt-5">
-      HELLO
-      <div className="text-red-600">rkdnkldkfn</div>
+    <div className="App">
+      <Home />
     </div>
   );
 }
