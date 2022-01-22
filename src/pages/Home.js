@@ -65,7 +65,9 @@ const Home = () => {
         <div className="text-3xl flex">
           <div style={{ background: "#EBEBEB", color: "#000" }}>
             <div className="px-20 py-8">
-              <p className="text-3xl font-semibold py-8">KIZAD OFFERINGS/</p>
+              <p className="text-3xl font-semibold py-8">
+                KIZAD OFFERINGS<span className="text-red-600">/</span>
+              </p>
               <p className="font-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus deserunt cum error eaque, debitis culpa nam sint
@@ -79,7 +81,9 @@ const Home = () => {
           </div>
           <div style={{ background: "#373A36", color: "#fff" }}>
             <div className="px-20 py-8">
-              <p className="text-3xl font-semibold py-8">KIZAD OFFERINGS/</p>
+              <p className="text-3xl font-semibold py-8">
+                KIZAD OFFERINGS<span className="text-red-600">/</span>
+              </p>
               <p className="font-light font-semibold">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus deserunt cum error eaque, debitis culpa nam sint
@@ -95,13 +99,17 @@ const Home = () => {
       </section>
       <section>
         <div className="px-20">
-          <p className="text-3xl font-semibold py-8">LATEST NEWS/</p>
+          <p className="text-3xl font-semibold py-8">
+            LATEST NEWS<span className="text-red-600">/</span>
+          </p>
           <NewsCard article={article} />
         </div>
       </section>
       <section>
         <div style={{ background: "#dddddd" }} className="px-20">
-          <p className="text-3xl font-semibold py-6">LATEST NEWS/</p>
+          <p className="text-3xl font-semibold py-6">
+            OUR PARTNERS<span className="text-red-600">/</span>
+          </p>
           <ClientsCarousel />
         </div>
       </section>
@@ -115,7 +123,7 @@ const Home = () => {
               <img className="w-full" src={doc} alt="" />
             </div>
             <p className="text-3xl font-semibold py-8 text-white">
-              DOWNLOAD OUR BROCHURE/
+              DOWNLOAD OUR BROCHURE<span className="text-red-600">/</span>
             </p>
             <p className="cursor-pointer text-red-600 text-base font-semibold">
               Click here...
