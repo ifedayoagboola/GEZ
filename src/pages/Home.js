@@ -123,7 +123,7 @@ const Home = () => {
       </section>
       <section>
         <div style={{ background: "#dddddd" }} className="px-20">
-          <p className="text-3xl font-semibold py-6">
+          <p className="text-2xl font-semibold py-8 text-gray-700">
             OUR PARTNERS<span className="text-green-600">/</span>
           </p>
           <ClientsCarousel />
