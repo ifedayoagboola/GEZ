@@ -59,8 +59,8 @@ const Home = () => {
             src="../assets/background.jpg"
             alt=""
           />
-          <div className="text-white text-left left-0 inset-y-80 absolute text-6xl font-semibold px-20 leading-tight">
-            THE GREEN <br />
+          <div className="text-white text-left left-0 inset-y-80 absolute text-6xl font-bold px-20 leading-tight">
+            THE <span className="text-green-600">GREEN</span> <br />
             ECONOMIC ZONE
             <p className="text-base">
               Enabling trade and industrial investments by leveraging the
@@ -74,10 +74,10 @@ const Home = () => {
         <div className="text-3xl flex">
           <div style={{ background: "#EBEBEB", color: "#000" }}>
             <div className="px-20 py-8">
-              <p className="text-3xl font-semibold py-8">
-                KIZAD OFFERINGS<span className="text-green-600">/</span>
+              <p className="text-2xl font-semibold py-8 text-gray-700">
+                WHAT WE DO<span className="text-green-600">/</span>
               </p>
-              <p className="font-light">
+              <p className="font-light  text-gray-700">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus deserunt cum error eaque, debitis culpa nam sint
                 laudantium id? Placeat, voluptatibus magnam tenetur
@@ -90,8 +90,8 @@ const Home = () => {
           </div>
           <div style={{ background: "#373A36", color: "#fff" }}>
             <div className="px-20 py-8">
-              <p className="text-3xl font-semibold py-8">
-                KIZAD OFFERINGS<span className="text-green-600">/</span>
+              <p className="text-2xl font-semibold py-8 text-gray-700">
+                OUR OFFERINGS<span className="text-green-600">/</span>
               </p>
               <p className="font-light font-semibold">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -108,7 +108,7 @@ const Home = () => {
       </section>
       <section>
         <div className="px-20">
-          <p className="text-3xl font-semibold py-8">
+          <p className="text-2xl font-semibold py-8 text-gray-700">
             LATEST NEWS<span className="text-green-600">/</span>
           </p>
           <div className="flex justify-between">
