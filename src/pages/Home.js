@@ -4,19 +4,9 @@ import React from "react";
 import ClientsCarousel from "../components/ClientsCarousel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Navbar from "../components/Navbar";
 
 import NewsCard from "../components/NewsCard";
 
-const NavLinks = [
-  { id: "1", link: "ABOUT GEZ", route: "/about" },
-  { id: "2", link: "KADUNA", route: "/kaduna" },
-  { id: "3", link: "BUSINESS UNIT", route: "/business" },
-  { id: "4", link: "PRICING", route: "/pricing" },
-  { id: "5", link: "NEWS & EVENTS", route: "/news" },
-  { id: "6", link: "CONTACT", route: "/contact" },
-  { id: "7", link: "ABOUT GEZ", route: "/about" },
-];
 const articles = [
   {
     id: "1",

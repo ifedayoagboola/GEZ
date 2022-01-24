@@ -28,8 +28,8 @@ const Footer = () => {
             }}
           ></div>
           <p className="pt-10">
-            © Abu Dhabi Ports 2021 Sitemap | Media Center | Privacy Policy |
-            Terms & Conditions
+            © GEZ 2022 Sitemap | Media Center | Privacy Policy | Terms &
+            Conditions
           </p>
         </div>
       </div>

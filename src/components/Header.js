@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "alpinejs";
-import logo from "../img/logo.jpeg";
+import logo from "../img/logo2.png";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -46,7 +46,7 @@ const Header = () => {
     <nav>
       <div className="bg-black">
         <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-white">
-          <div className="w-10 h-10 flex gap-1 justify-center items-center ml-8">
+          <div className="w-12 h-12 flex gap-1 justify-center items-center ml-8">
             <img className=" w-full" src={logo} alt="" />
             <div className="text-white font-bold">
               <p className="leading-none">
@@ -57,7 +57,7 @@ const Header = () => {
           </div>
           <button
             onClick={navbarHandler}
-            className="lg:hidden inline-flex items-center justify-center text-white border h-10 w-10 rounded-md outline-none focus:outline-none ml-auto"
+            className="lg:hidden inline-flex items-center justify-center text-white h-10 w-10 outline-none focus:outline-none ml-auto"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
