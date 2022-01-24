@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Carousel from "react-simply-carousel";
-import lg from "../assets/lg.png";
 
 function ClientsCarousel() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -56,7 +55,7 @@ function ClientsCarousel() {
             }}
             key={index}
           >
-            <img src={lg} alt="" />
+            <img src="../assets/lg.png" alt="" />
           </div>
         ))}
       </Carousel>
