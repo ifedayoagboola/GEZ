@@ -45,9 +45,15 @@ const Header = () => {
   return (
     <nav>
       <div className="bg-black">
-        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4">
-          <div className="w-10 h-10 ">
+        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-white">
+          <div className="w-10 h-10 flex gap-1 justify-center items-center ml-8">
             <img className=" w-full" src={logo} alt="" />
+            <div className="text-white font-bold">
+              <p className="leading-none">
+                GREEN <br />
+                ECONOMIC <br /> ZONE
+              </p>
+            </div>
           </div>
           <button
             onClick={navbarHandler}
@@ -80,9 +86,9 @@ const Header = () => {
                 <button onMouseOver={dropdownHandler1}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium text-white hover:border-b border-green-600 outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b border-green-600 outline-none focus:outline-none"
                   >
-                    About GEZ
+                    ABOUT GEZ
                   </a>
                 </button>
               </li>
@@ -91,9 +97,9 @@ const Header = () => {
                 <button onMouseOver={dropdownHandler2}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium text-white hover:border-b border-green-600 outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b border-green-600 outline-none focus:outline-none"
                   >
-                    Business Set-up
+                    BUSINESS SET-UP
                   </a>
                 </button>
               </li>
@@ -102,44 +108,44 @@ const Header = () => {
                 <button onMouseOver={dropdownHandler3}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium text-white hover:border-b border-green-600 outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b border-green-600 outline-none focus:outline-none"
                   >
-                    Facilities
+                    FACILITIES
                   </a>
                 </button>
               </li>
               <li onMouseOver={dropdownHandler5}>
                 <a
-                  className="flex px-4 py-2 font-medium text-white hover:border-b border-green-600"
+                  className="flex px-4 py-2 font-medium hover:border-b border-green-600"
                   href=""
                 >
-                  Pricing
+                  PRICING
                 </a>
               </li>
               <li onMouseOver={dropdownHandler5}>
                 <a
-                  className="flex px-4 py-2 font-medium text-white hover:border-b border-green-600"
+                  className="flex px-4 py-2 font-medium hover:border-b border-green-600"
                   href=""
                 >
-                  Apply Now
+                  APPLY NOW
                 </a>
               </li>
               <li className="relative">
                 <button onMouseOver={dropdownHandler4}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium text-white hover:border-b border-green-600 outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b border-green-600 outline-none focus:outline-none"
                   >
-                    Media Center
+                    MEDIA CENTER
                   </a>
                 </button>
               </li>
               <li onMouseOver={dropdownHandler5}>
                 <a
-                  className="flex px-4 py-2 font-medium text-white hover:border-b border-green-600"
+                  className="flex px-4 py-2 font-medium hover:border-b border-green-600"
                   href=""
                 >
-                  Contact Us
+                  CONTACT US
                 </a>
               </li>
             </ul>
@@ -154,13 +160,13 @@ const Header = () => {
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >
-        <ul className="space-y-2 lg:w-full flex justify-end justify gap-5 items-center">
+        <ul className="lg:w-full flex justify-end justify gap-5 items-center">
           <li>
             <a
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              GEZ- The Project
+              GEZ- THE PROJECT
             </a>
           </li>
           <li>
@@ -168,7 +174,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Why invest in GEZ
+              WHY INVEST IN GEZ
             </a>
           </li>
           <li>
@@ -176,7 +182,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              The Partners and Investors
+              THE PARTNERS & INVESTORS
             </a>
           </li>
           <li>
@@ -184,7 +190,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Why Kaduna
+              WHY KADUNA
             </a>
           </li>
         </ul>
@@ -196,13 +202,13 @@ const Header = () => {
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >
-        <ul className="space-y-2 lg:w-full flex justify-end justify gap-5 items-center">
+        <ul className="lg:w-full flex justify-end justify gap-5 items-center">
           <li>
             <a
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Clusters and layout
+              CLUSTERS AND LAYOUT
             </a>
           </li>
           <li>
@@ -210,7 +216,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Incentives
+              INCENTIVES
             </a>
           </li>
           <li>
@@ -218,7 +224,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              How to apply
+              HOW TO APPLY
             </a>
           </li>
           <li>
@@ -226,7 +232,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Terms and conditions
+              TERMS AND CONDITIONS
             </a>
           </li>
           <li>
@@ -234,7 +240,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Government Policy
+              GOVERNMENT POLICY
             </a>
           </li>
           <li>
@@ -242,7 +248,7 @@ const Header = () => {
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Talk with an expert
+              TALK WITH AN EXPERT
             </a>
           </li>
         </ul>
@@ -254,13 +260,13 @@ const Header = () => {
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >
-        <ul className="space-y-2 lg:w-full flex justify-center gap-5 items-center">
+        <ul className="lg:w-full flex justify-center gap-5 items-center">
           <li>
             <a
               className="flex p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Park Amenities & Infrastructure
+              PARK AMENITIES & INFRASTRUCTURE
             </a>
           </li>
         </ul>
@@ -272,13 +278,13 @@ const Header = () => {
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >
-        <ul className="space-y-2 lg:w-full flex justify-center gap-5 items-center">
+        <ul className="lg:w-full flex justify-center gap-5 items-center">
           <li>
             <a
               className="p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              News
+              NEWS
             </a>
           </li>
           <li>
@@ -286,15 +292,7 @@ const Header = () => {
               className="p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
               href=""
             >
-              Events
-            </a>
-          </li>
-          <li>
-            <a
-              className="p-2 font-medium text-grey-600 rounded-md hover:bg-grey-100 hover:text-black"
-              href=""
-            >
-              Events
+              EVENTS
             </a>
           </li>
         </ul>
