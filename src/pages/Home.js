@@ -75,7 +75,7 @@ const Home = () => {
           <div style={{ background: "#EBEBEB", color: "#000" }}>
             <div className="px-20 py-8">
               <p className="text-2xl font-semibold py-8 text-gray-700">
-                WHAT WE DO<span className="text-green-600">/</span>
+                WHAT WE DO<span className="text-green-600 font-bold">/</span>
               </p>
               <p className="font-light  text-gray-700">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -90,8 +90,9 @@ const Home = () => {
           </div>
           <div style={{ background: "#373A36", color: "#fff" }}>
             <div className="px-20 py-8">
-              <p className="text-2xl font-semibold py-8 text-gray-700">
-                OUR OFFERINGS<span className="text-green-600">/</span>
+              <p className="text-2xl font-semibold py-8 text-white">
+                OUR OFFERINGS
+                <span className="text-green-600 font-bold">/</span>
               </p>
               <p className="font-light font-semibold">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -109,7 +110,7 @@ const Home = () => {
       <section>
         <div className="px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
-            LATEST NEWS<span className="text-green-600">/</span>
+            LATEST NEWS<span className="text-green-600 font-bold">/</span>
           </p>
           <div className="flex justify-between">
             {articles.map((article) => {
@@ -124,7 +125,7 @@ const Home = () => {
       <section>
         <div style={{ background: "#dddddd" }} className="px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
-            OUR PARTNERS<span className="text-green-600">/</span>
+            OUR PARTNERS<span className="text-green-600 font-bold">/</span>
           </p>
           <ClientsCarousel />
         </div>
@@ -139,7 +140,8 @@ const Home = () => {
               <img className="w-full" src="../assets/doc3.png" alt="" />
             </div>
             <p className="text-3xl font-semibold py-8 text-white">
-              DOWNLOAD OUR BROCHURE<span className="text-green-600">/</span>
+              DOWNLOAD OUR BROCHURE
+              <span className="text-green-600 font-bold">/</span>
             </p>
             <p className="cursor-pointer text-green-600 text-base font-semibold">
               Click here...
