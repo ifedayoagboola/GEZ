@@ -45,7 +45,7 @@ const Header = () => {
   return (
     <nav className="ease-out duration-100">
       <div className="px-16 bg-black py-3 text-white w-full mb-8">
-        <ul className=" flex lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end gap-4 text-xs ">
+        <ul className=" lg:flex lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end gap-4 text-xs ">
           <li>
             <a href="">HOME</a>
           </li>
@@ -145,7 +145,7 @@ const Header = () => {
       <div
         className={
           dropdownOpen1
-            ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
+            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >
@@ -175,7 +175,7 @@ const Header = () => {
       <div
         className={
           dropdownOpen2
-            ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
+            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >
@@ -215,7 +215,7 @@ const Header = () => {
       <div
         className={
           dropdownOpen3
-            ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
+            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >
@@ -230,7 +230,7 @@ const Header = () => {
       <div
         className={
           dropdownOpen4
-            ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
+            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
             : "hidden lg:absolute bg-white right-0 rounded-md p-2"
         }
       >

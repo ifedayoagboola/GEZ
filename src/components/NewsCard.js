@@ -1,6 +1,7 @@
 import React from "react";
 
 const NewsCard = ({ article }) => {
+  console.log(article.title.length);
   return (
     <div className="p-4 sm:w-1/2 lg:w-1/4 ">
       <div className="h-full overflow-hidden">
@@ -17,8 +18,14 @@ const NewsCard = ({ article }) => {
               <p className="text-base font-medium text-green-300 mb-1">
                 {article.date}
               </p>
-              <p className="text-sm font-semibold mb-3">{article.title}</p>
-              <p className=" leading-relaxed mb-3">{article.content}</p>
+              <p className="text-sm font-semibold mb-3">{`${article.title.slice(
+                0,
+                36
+              )}...`}</p>
+              <p className=" leading-relaxed mb-3">{`${article.content.slice(
+                0,
+                100
+              )}...`}</p>
               <div class="flex items-center flex-wrap ">
                 <a class="text-green-300 inline-flex items-center md:mb-2 lg:mb-0">
                   Read More

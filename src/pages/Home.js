@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import background from "../img/lg.png";
-// import doc from "../assets/doc3.png";
 import ClientsCarousel from "../components/ClientsCarousel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -15,7 +13,7 @@ const articles = [
     title:
       "Malawi’s president fires entire cabinet over graft - Punch Newspapers",
     content:
-      ' Malawi President Lazarus Chakwera on Monday sacked his entire cabinet over graft concerns, vowing to "confront all forms of lawless conduct by public officials...',
+      ' Malawi President Lazarus Chakwera on Monday sacked his entire cabinet over graft concerns, vowing to "confront all forms of lawless conduct by public officials',
     img: "../assets/malawi.jpeg",
   },
   {
@@ -24,7 +22,7 @@ const articles = [
     title:
       "AFCON: Comoros' Youssouf M'Changama nets insane free-kick in heroic performance v Cameroon - GIVEMESPORT",
     content:
-      " AFCON: Comoros' Youssouf M'Changama nets insane free-kick in heroic performance v Cameroon...",
+      " AFCON: Comoros' Youssouf M'Changama nets insane free-kick in heroic performance v Cameroon",
     img: "../assets/comoros.jpg",
   },
   {
@@ -32,7 +30,7 @@ const articles = [
     date: "Just now",
     title: "Tesla Model 3 Delivered With Missing Brake Pad: What Happened?",
     content:
-      " Technicians at a Tesla Service Center told the owner the sound was “normal for performance brakes.”\n Brand-new Tesla Model 3 owner April G (April Gilmore) picked up her 2022 Model 3 Performance in Tampa, Florida, in December. It was making a weird and annoyin...",
+      " Technicians at a Tesla Service Center told the owner the sound was “normal for performance brakes.”\n Brand-new Tesla Model 3 owner April G (April Gilmore) picked up her 2022 Model 3 Performance in Tampa, Florida, in December. It was making a weird and annoyin",
     img: "../assets/tesla.jpg",
   },
   {
@@ -40,7 +38,7 @@ const articles = [
     date: "January 22, 2022",
     title: "U.S. Bitcoin ETF Is Net Zero Bitcoin",
     content:
-      " While a U.S. Bitcoin ETF sounds good in theory, peek under the hood and investors will find a futures-based instrument riddled with contradictions that has very little to do with bitcoin anyway.\nThe post U.S. Bitcoin ETF Is Net Zero Bitcoin appeared first on...",
+      " While a U.S. Bitcoin ETF sounds good in theory, peek under the hood and investors will find a futures-based instrument riddled with contradictions that has very little to do with bitcoin anyway.\nThe post U.S. Bitcoin ETF Is Net Zero Bitcoin appeared first on",
     img: "../assets/bitcoin.jpeg",
   },
 ];
