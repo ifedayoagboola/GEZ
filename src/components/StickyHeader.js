@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "alpinejs";
 import logo from "../img/logo2.png";
 
-const Header = () => {
+const StickyHeader = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [dropdownOpen1, setDropdownOpen1] = useState(false);
   const [dropdownOpen2, setDropdownOpen2] = useState(false);
@@ -44,23 +44,11 @@ const Header = () => {
 
   return (
     <nav className="ease-out duration-100">
-      <div className="px-16 bg-black py-3 text-white w-full mb-8">
-        <ul className=" flex lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end gap-4 text-xs ">
-          <li>
-            <a href="">HOME</a>
-          </li>
-          <li>
-            <a href="">PRICING</a>
-          </li>
-          <li>APPLY NOW</li>
-          <li>CONTACT US</li>
-        </ul>
-      </div>
-      <div className="bg-transparent">
-        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-white">
+      <div className="bg-white">
+        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-black">
           <div className="w-12 h-12 flex gap-1 justify-center items-center ml-8">
             <img className=" w-full" src={logo} alt="" />
-            <div className="text-white font-bold">
+            <div className="text-black font-bold">
               <p className="leading-none">
                 GREEN <br />
                 ECONOMIC <br /> ZONE
@@ -251,4 +239,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default StickyHeader;
