@@ -58,9 +58,9 @@ const Header = () => {
       </div>
       <div className="bg-transparent">
         <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-white">
-          <div className="w-12 h-12 flex gap-1 justify-center items-center ml-8">
+          <div className="w-16 h-16 flex gap-1 justify-center items-center ml-8">
             <img className=" w-full" src={logo} alt="" />
-            <div className="text-white font-bold">
+            <div className="text-white font-bold text-lg">
               <p className="leading-none">
                 GREEN <br />
                 ECONOMIC <br /> ZONE
@@ -89,7 +89,7 @@ const Header = () => {
           <div
             className={`${
               navbarOpen
-                ? "flex w-full mt-2 lg:mt-0 "
+                ? "flex w-full mt-2 lg:mt-0"
                 : "hidden w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0"
             }`}
           >

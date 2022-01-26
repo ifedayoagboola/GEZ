@@ -10,36 +10,34 @@ const articles = [
   {
     id: "1",
     date: "June 6, 2022",
-    title:
-      "Malawi’s president fires entire cabinet over graft - Punch Newspapers",
+    title: "FOOD PROCESSING PARK",
     content:
-      ' Malawi President Lazarus Chakwera on Monday sacked his entire cabinet over graft concerns, vowing to "confront all forms of lawless conduct by public officials',
-    img: "../assets/malawi.jpeg",
+      " Equipped with plug and play modern infrastructures enabling entrepreneurs to setup food processing units close to crop production areas with an integrated and complete preservation infrastructure and facilities.",
+    img: "../assets/art1.jpg",
   },
   {
     id: "2",
     date: "June 22, 2022",
-    title:
-      "AFCON: Comoros' Youssouf M'Changama nets insane free-kick in heroic performance v Cameroon - GIVEMESPORT",
+    title: "LIGHT INDUSTRY PARK",
     content:
-      " AFCON: Comoros' Youssouf M'Changama nets insane free-kick in heroic performance v Cameroon",
-    img: "../assets/comoros.jpg",
+      "A safe, secure and eco-friendly environment for firms in the light industry to tap into the huge potentials of providing food processing, paper making, plastic, leather, textiles, paper,  jute and cement manufacturing companies operating in the Industrial Park with services ranging from spare parts production to maintenance operations.",
+    img: "../assets/art2.jpg",
   },
   {
     id: "3",
     date: "Just now",
-    title: "Tesla Model 3 Delivered With Missing Brake Pad: What Happened?",
+    title: "MULTIMODAL LOGISTICS PARK",
     content:
-      " Technicians at a Tesla Service Center told the owner the sound was “normal for performance brakes.”\n Brand-new Tesla Model 3 owner April G (April Gilmore) picked up her 2022 Model 3 Performance in Tampa, Florida, in December. It was making a weird and annoyin",
-    img: "../assets/tesla.jpg",
+      " Provides a cluster of logistics companies offering tailored, flexible and streamlined logistics processes, covering air, ocean, road and rail freight – with optimal cost-efficiency and flexibility in routing and transit times.",
+    img: "../assets/art3.jpg",
   },
   {
     id: "4",
     date: "January 22, 2022",
-    title: "U.S. Bitcoin ETF Is Net Zero Bitcoin",
+    title: "AGRO ALLIED PARK",
     content:
-      " While a U.S. Bitcoin ETF sounds good in theory, peek under the hood and investors will find a futures-based instrument riddled with contradictions that has very little to do with bitcoin anyway.\nThe post U.S. Bitcoin ETF Is Net Zero Bitcoin appeared first on",
-    img: "../assets/bitcoin.jpeg",
+      " Ready to play host to Agro Allied Industries, the GEZ will facilitate the enabling environment for local and international firms to thrive and increase the contribution of the agriculture sector to GDP, foster wealth and employment creation for the youth.",
+    img: "../assets/art4.jpg",
   },
 ];
 const Home = () => {
@@ -123,7 +121,8 @@ const Home = () => {
       <section>
         <div className="px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
-            LATEST NEWS<span className="text-green-600 font-bold">/</span>
+            CLUSTERS AND LAYOUT
+            <span className="text-green-600 font-bold">/</span>
           </p>
           <div className="flex flex-wrap -m-4">
             {articles.map((article) => {

@@ -1,36 +1,37 @@
 import "./ClientsCarousel.css";
-import logo from "../img/logo.jpeg";
+import logo2 from "../img/logo2.png";
 import Bitshub from "../img/Bitshub.png";
-import Diginat from "../img/Diginat.png";
-import learnpod from "../img/learnpod.png";
-import lg from "../img/lg.png";
+import cl1 from "../img/cl1.png";
+import cl2 from "../img/cl2.png";
+import cl3 from "../img/cl3.png";
+import cl4 from "../img/cl4.png";
 function ClientsCarousel() {
   return (
     <div>
       <section className="carousel">
         <div className="slider">
           <div className="slider-track">
-            <div className="slide">
-              <img src={logo} alt="" />
+            <div className="slide w-100 h-100">
+              <img src={cl1} alt="" />
             </div>
             <div className="slide">
-              <img src={lg} alt="" />
+              <img src={cl2} alt="" />
             </div>
             <div className="slide">
-              <img src={Bitshub} alt="" />
+              <img src={cl3} alt="" />
             </div>
             <div className="slide">
-              <img src={Diginat} alt="" />
+              <img src={cl4} alt="" />
             </div>
-            <div className="slide">
+            {/* <div className="slide">
               <img src={learnpod} alt="" />
-            </div>
+            </div> */}
             <div className="slide">
-              <img src={logo} alt="" />
+              <img src={logo2} alt="" />
             </div>
-            <div className="slide">
+            {/* <div className="slide">
               <img src={lg} alt="" />
-            </div>
+            </div> */}
             <div className="slide">
               <img src={Bitshub} alt="" />
             </div>
