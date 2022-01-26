@@ -3,8 +3,8 @@ import React from "react";
 const NewsCard = ({ article }) => {
   console.log(article.title.length);
   return (
-    <div className="p-4 sm:w-1/2 lg:w-1/4  ">
-      <div className="h-full ">
+    <div className="p-4 sm:w-1/2 lg:w-1/4 ">
+      <div className="h-full overflow-hidden">
         <div style={{ background: "#DDDDDD" }}>
           <div className="p-3 hover:bg-green-700 hover:text-white transition duration-300 ease-in">
             <div>
