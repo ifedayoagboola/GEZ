@@ -50,7 +50,7 @@ const About = () => {
       <section className="">
         <div className="text-base flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start ">
           <div
-            className="w-1/2 lg:w-3/6 h-screen"
+            className="w-full lg:w-1/2 h-screen"
             style={{ background: "#EBEBEB", color: "#000" }}
           >
             <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
@@ -85,7 +85,7 @@ const About = () => {
             </div>
           </div>
           <div
-            className="w-1/2 h-screen bg-no-repeat bg-cover"
+            className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
             style={{
               backgroundImage: "url(/assets/bg2.jpg)",
             }}
