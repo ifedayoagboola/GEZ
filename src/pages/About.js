@@ -43,7 +43,7 @@ const About = () => {
       </section>
       <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-xl ">
         <p className="container mx-auto px-12 py-6">
-          Designed to provide a “plug and play” facility for Micro, Small &
+          Designed to provide a “plug and play” facility for Micro, Small and
           Medium Enterprises (MSMEs) to enable them to operate competitively.
         </p>
       </div>

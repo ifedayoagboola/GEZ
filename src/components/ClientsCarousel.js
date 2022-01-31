@@ -12,6 +12,9 @@ function ClientsCarousel() {
         <div className="slider">
           <div className="slider-track">
             <div className="slide w-100 h-100">
+              {/* <img src="" alt="" /> */}
+            </div>
+            <div className="slide w-100 h-100">
               <img src={cl1} alt="" />
             </div>
             <div className="slide">
