@@ -7,15 +7,15 @@ import twitter from "../img/twitter.png";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="">
       <div style={{ background: "#ddd" }} className="py-16">
-        <div className=" flex justify-center gap-10 items-center">
-          <p className="text-xl font-semibold py-8 text-gray-600">
+        <div className=" flex justify-center gap-4 lg:gap-10 items-center flex-col lg:flex-row container mx-auto px-16 py-10">
+          <p className="text-xl font-semibold py-8 text-gray-600 text-center">
             SUBSCRIBE TO OUR GROUP NEWSLETTER
           </p>
           <div className=" flex justify-center items-center">
             <input
-              className=" w-96 border border-solid border-gray-400 rounded p-2 outline-none"
+              className=" border border-solid border-gray-400 rounded p-2 outline-none"
               type="text"
               placeholder="Enter Your Email Here"
             />
@@ -32,25 +32,27 @@ const Footer = () => {
               width: "100%",
             }}
           ></div>
-          <p className="pt-10">
-            © GEZ 2022 Sitemap | Media Center | Privacy Policy | Terms &
-            Conditions
-          </p>
-          <div className="flex items-center justify-center gap-4 py-4">
-            <div className="w-10 h-10">
-              <img className="w-full" src={facebook} alt="" />
-            </div>
-            <div className="w-10 h-10">
-              <img className="w-full" src={gmail} alt="" />
-            </div>
-            <div className="w-10 h-10">
-              <img className="w-full" src={youtube} alt="" />
-            </div>
-            <div className="w-10 h-10">
-              <img className="w-full" src={instagram} alt="" />
-            </div>
-            <div className="w-10 h-10">
-              <img className="w-full" src={twitter} alt="" />
+          <div className="container mx-auto px-16">
+            <p className="pt-10 ">
+              © GEZ 2022 Sitemap | Media Center | Privacy Policy | Terms &
+              Conditions
+            </p>
+            <div className="flex items-center justify-center gap-4 py-4">
+              <div className="w-10 h-10">
+                <img className="w-full" src={facebook} alt="" />
+              </div>
+              <div className="w-10 h-10">
+                <img className="w-full" src={gmail} alt="" />
+              </div>
+              <div className="w-10 h-10">
+                <img className="w-full" src={youtube} alt="" />
+              </div>
+              <div className="w-10 h-10">
+                <img className="w-full" src={instagram} alt="" />
+              </div>
+              <div className="w-10 h-10">
+                <img className="w-full" src={twitter} alt="" />
+              </div>
             </div>
           </div>
         </div>

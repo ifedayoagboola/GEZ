@@ -45,7 +45,7 @@ const StickyHeader = () => {
   return (
     <nav className="ease-out duration-100">
       <div className="bg-white">
-        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-black">
+        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-black ">
           <div className="w-12 h-12 flex gap-1 justify-center items-center ml-8">
             <img className=" w-full" src={logo} alt="" />
             <div className="text-black font-bold">
@@ -55,38 +55,20 @@ const StickyHeader = () => {
               </p>
             </div>
           </div>
-          <button
-            onClick={navbarHandler}
-            className="lg:hidden inline-flex items-center justify-center text-white h-10 w-10 outline-none focus:outline-none ml-auto"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
+
           <div
             className={`${
               navbarOpen
-                ? "flex w-full mt-2 lg:mt-0 "
+                ? "mt-2 lg:mt-0 ml-auto bg-black bg-opacity-60"
                 : "hidden w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0"
             }`}
           >
-            <ul className="w-full flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end">
+            <ul className="w-full flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end lg:text-black">
               <li className="relative">
                 <button onMouseOver={dropdownHandler1}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
                   >
                     ABOUT GEZ
                   </a>
@@ -97,7 +79,7 @@ const StickyHeader = () => {
                 <button onMouseOver={dropdownHandler2}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
                   >
                     BUSINESS SET-UP
                   </a>
@@ -108,7 +90,7 @@ const StickyHeader = () => {
                 <button onMouseOver={dropdownHandler3}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
                   >
                     FACILITIES
                   </a>
@@ -119,7 +101,7 @@ const StickyHeader = () => {
                 <button onMouseOver={dropdownHandler4}>
                   <a
                     href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
                   >
                     MEDIA CENTER
                   </a>
@@ -127,6 +109,26 @@ const StickyHeader = () => {
               </li>
             </ul>
           </div>
+          <button
+            onClick={navbarHandler}
+            className="lg:hidden inline-flex items-end justify-center text-white h-10 w-10 outline-none focus:outline-none ml-auto"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              color="#000"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
       </div>
 

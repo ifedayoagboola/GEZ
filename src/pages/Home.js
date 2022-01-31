@@ -51,8 +51,8 @@ const Home = () => {
   };
   window.addEventListener("scroll", navHandler);
   return (
-    <div>
-      <section>
+    <div className="">
+      <section className="">
         <div className="fixed w-full">
           {navbar ? <StickyHeader /> : <Header />}
         </div>
@@ -62,7 +62,7 @@ const Home = () => {
             backgroundImage: "url(/assets/background.jpg)",
           }}
         >
-          <div className="text-white text-left text-6xl font-bold px-20 leading-tight">
+          <div className="text-white text-left text-6xl font-bold container mx-auto px-16 leading-tight mt-auto py-12">
             THE <span className="text-green-600">GREEN</span> <br />
             ECONOMIC ZONE
             <p className="text-base text-white pt-5 font-semibold">
@@ -75,12 +75,12 @@ const Home = () => {
       </section>
 
       <section className="">
-        <div className="text-3xl flex h-screen">
+        <div className="text-3xl flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start ">
           <div
-            className=" w-3/6 flex flex-col justify-center items-center"
+            className="w-full lg:w-3/6 flex flex-col justify-center items-center h-screen"
             style={{ background: "#EBEBEB", color: "#000" }}
           >
-            <div className="px-20 py-8">
+            <div className="container mx-auto px-20 py-8">
               <p className="text-2xl font-semibold py-8 text-gray-700">
                 GREEN GROWTH<span className="text-green-600 font-bold">/</span>
               </p>
@@ -96,10 +96,10 @@ const Home = () => {
             </div>
           </div>
           <div
-            className="w-3/6 flex flex-col justify-center items-center"
+            className="w-full lg:w-3/6 flex flex-col justify-center items-center h-screen"
             style={{ background: "#373A36", color: "#fff" }}
           >
-            <div className="px-20 py-8">
+            <div className="container mx-auto px-20 py-8">
               <p className="text-2xl font-semibold py-8 text-white">
                 OUR OFFERINGS
                 <span className="text-green-600 font-bold">/</span>
@@ -118,7 +118,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="">
         <div className="px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
             CLUSTERS AND LAYOUT
@@ -126,7 +126,7 @@ const Home = () => {
           </p>
           <div className="flex flex-wrap -m-4">
             {articles.map((article) => {
-              return <NewsCard article={article} />;
+              return <NewsCard key={article.id} article={article} />;
             })}
           </div>
           <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
@@ -134,7 +134,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section>
+      <section className="">
         <div style={{ background: "#dddddd" }} className="px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
             OUR PARTNERS<span className="text-green-600 font-bold">/</span>
@@ -142,12 +142,12 @@ const Home = () => {
           <ClientsCarousel />
         </div>
       </section>
-      <section>
+      <section className="">
         <div
           style={{ background: "#373A36" }}
           className="w-full text-center mt-10 "
         >
-          <div className="py-16 flex justify-center items-center flex-col">
+          <div className="py-16 flex justify-center items-center flex-col container mx-auto px-4">
             <div className="w-20">
               <img className="w-full" src="../assets/doc3.png" alt="" />
             </div>
@@ -162,7 +162,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section className="">
         <Footer />
       </section>
     </div>

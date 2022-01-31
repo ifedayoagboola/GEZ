@@ -45,15 +45,19 @@ const Header = () => {
   return (
     <nav className="ease-out duration-100">
       <div className="px-16 bg-black py-3 text-white w-full mb-8">
-        <ul className=" lg:flex lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end gap-4 text-xs ">
+        <ul className=" flex space-x-2 space-y-2 space-y-0 justify-end gap-4 text-xs ">
           <li>
             <a href="">HOME</a>
           </li>
           <li>
             <a href="">PRICING</a>
           </li>
-          <li>APPLY NOW</li>
-          <li>CONTACT US</li>
+          <li>
+            <a href="">APPLY NOW</a>{" "}
+          </li>
+          <li>
+            <a href="">CONTACT US</a>{" "}
+          </li>
         </ul>
       </div>
       <div className="bg-transparent">
@@ -67,29 +71,11 @@ const Header = () => {
               </p>
             </div>
           </div>
-          <button
-            onClick={navbarHandler}
-            className="lg:hidden inline-flex items-center justify-center text-white h-10 w-10 outline-none focus:outline-none ml-auto"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
+
           <div
             className={`${
               navbarOpen
-                ? "flex w-full mt-2 lg:mt-0"
+                ? "mt-2 lg:mt-0 ml-auto bg-black bg-opacity-60"
                 : "hidden w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0"
             }`}
           >
@@ -104,7 +90,6 @@ const Header = () => {
                   </a>
                 </button>
               </li>
-
               <li className="relative">
                 <button onMouseOver={dropdownHandler2}>
                   <a
@@ -115,7 +100,6 @@ const Header = () => {
                   </a>
                 </button>
               </li>
-
               <li className="relative">
                 <button onMouseOver={dropdownHandler3}>
                   <a
@@ -126,7 +110,6 @@ const Header = () => {
                   </a>
                 </button>
               </li>
-
               <li className="relative">
                 <button onMouseOver={dropdownHandler4}>
                   <a
@@ -139,6 +122,25 @@ const Header = () => {
               </li>
             </ul>
           </div>
+          <button
+            onClick={navbarHandler}
+            className="lg:hidden inline-flex items-end justify-center text-white h-10 w-10 outline-none focus:outline-none ml-auto"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
       </div>
 
