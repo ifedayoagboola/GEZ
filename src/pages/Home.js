@@ -85,10 +85,13 @@ const Home = () => {
                 GREEN GROWTH<span className="text-green-600 font-bold">/</span>
               </p>
               <p className="font-light text-gray-700">
-                “<span className="text-green-600">Green</span> Growth means
-                fostering economic growth and development, while ensuring that
-                natural assets continue to provide the resources and
-                environmental services on which our well-being relies”.
+                “<span className="text-green-600">Green</span> The FUTURE is
+                here for today. A phenomenal green economic zone powered by the
+                Kaduna State Government in partnership with KK Kingdom an
+                indigenous construction company based in FCT, Abuja, Nigeria.
+                GEZ is designed to provide a “plug and play” facility for Micro,
+                Small & Medium Enterprises (MSMEs) making it the backbone and
+                catalyst for sustainable regional development.
               </p>
               <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
                 LEARN MORE...
@@ -105,9 +108,12 @@ const Home = () => {
                 <span className="text-green-600 font-bold">/</span>
               </p>
               <p className="font-light font-semibold">
-                GEZ Special Area will take advantage of the open system,
-                cross-border financial services, cutting-edge scientific and
-                technological, cross-border service trade, and other functions.
+                The Green Economic Zone (GEZ) is a N15bn Public/Private
+                partnership investment that will provide critical
+                infrastructures to enable firms setup manufacturing plants
+                within the industrial park. The industrial park is sited on 717
+                hectares of land strategically located on the Kaduna-Jos road,
+                opposite the fifth Chukker Resort, Igabi, LGA, Kaduna State.
               </p>
               <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
                 LEARN MORE...
@@ -117,12 +123,12 @@ const Home = () => {
         </div>
       </section>
       <section className="">
-        <div className="px-20">
+        <div className="px-4 lg:px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
             CLUSTERS AND LAYOUT
             <span className="text-green-600 font-bold">/</span>
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col lg:flex-row gap-4 items-center">
             {articles.map((article) => {
               return <NewsCard key={article.id} article={article} />;
             })}

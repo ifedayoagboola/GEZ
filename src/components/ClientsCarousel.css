@@ -11,10 +11,10 @@
   margin: auto;
 }
 .slide {
-  width: 120px;
+  width: 100px;
   height: 100px;
 }
-.slider::before,
+/* .slider::before,
 .slider::after {
   content: "";
   position: absolute;
@@ -31,12 +31,13 @@
   top: 0;
   left: 0;
   transform: rotateZ(100deg);
-}
+} */
 .slider .slider-track {
   display: flex;
   gap: 100px;
+  /* 
   width: calc(250px * 14);
-  animation: scroll 40s infinite linear;
+  animation: scroll 40s infinite linear; */
 }
 .slider .slide img {
   width: 100%;

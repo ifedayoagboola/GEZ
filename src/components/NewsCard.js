@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsCard = ({ article }) => {
   return (
-    <div className=" sm:w-full lg:w-1/4">
+    <div className=" sm:w-full md:w-1/2 lg:w-1/4">
       <div className="h-full overflow-hidden">
         <div style={{ background: "#DDDDDD" }}>
           <div className="p-3 hover:bg-green-700 hover:text-white transition duration-300 ease-in">
