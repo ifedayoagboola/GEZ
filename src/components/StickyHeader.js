@@ -161,22 +161,22 @@ const StickyHeader = () => {
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
           <li className="flex p-2 ">
-            <Link to="clusters">CLUSTERS AND LAYOUT</Link>
+            <Link to="/clusters">CLUSTERS AND LAYOUT</Link>
           </li>
           <li className="flex p-2 ">
-            <Link to="incentives">INCENTIVES</Link>
+            <Link to="/incentives">INCENTIVES</Link>
           </li>
           <li className="flex p-2 ">
-            <Link to="how-to">HOW TO APPLY</Link>
+            <Link to="/how-to">HOW TO APPLY</Link>
           </li>
           <li className="flex p-2 ">
-            <Link to="t-and-c">TERMS AND CONDITIONS</Link>
+            <Link to="/t-and-c">TERMS AND CONDITIONS</Link>
           </li>
           <li className="flex p-2 ">
-            <Link to="government-policy">GOVERNMENT POLICY</Link>
+            <Link to="/government-policy">GOVERNMENT POLICY</Link>
           </li>
           <li className="flex p-2 ">
-            <Link to="talk-with-expert">TALK WITH AN EXPERT</Link>
+            <Link to="/talk-with-expert">TALK WITH AN EXPERT</Link>
           </li>
         </ul>
       </div>
@@ -189,7 +189,7 @@ const StickyHeader = () => {
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
           <li className="flex p-2 ">
-            <Link to="infrastructure">PARK AMENITIES & INFRASTRUCTURE</Link>
+            <Link to="/infrastructure">PARK AMENITIES & INFRASTRUCTURE</Link>
           </li>
         </ul>
       </div>
@@ -202,10 +202,10 @@ const StickyHeader = () => {
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
           <li className="flex p-2 ">
-            <Link to="news">NEWS</Link>
+            <Link to="/">NEWS</Link>
           </li>
           <li className="flex p-2 ">
-            <Link to="events">EVENTS</Link>
+            <Link to="/events">EVENTS</Link>
           </li>
         </ul>
       </div>

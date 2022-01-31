@@ -172,35 +172,23 @@ const Header = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              CLUSTERS AND LAYOUT
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/clusters">CLUSTERS AND LAYOUT</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              INCENTIVES
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/incentives">INCENTIVES</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              HOW TO APPLY
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/how-to">HOW TO APPLY</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              TERMS AND CONDITIONS
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/t-and-c">TERMS AND CONDITIONS</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              GOVERNMENT POLICY
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/government-policy">GOVERNMENT POLICY</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              TALK WITH AN EXPERT
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/talk-with-expert">TALK WITH AN EXPERT</Link>
           </li>
         </ul>
       </div>
@@ -212,10 +200,8 @@ const Header = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              PARK AMENITIES & INFRASTRUCTURE
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/infrastructure">PARK AMENITIES & INFRASTRUCTURE</Link>
           </li>
         </ul>
       </div>
@@ -227,15 +213,11 @@ const Header = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              NEWS
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/news">NEWS</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              EVENTS
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/events">EVENTS</Link>
           </li>
         </ul>
       </div>
