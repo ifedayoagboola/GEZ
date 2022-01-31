@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "alpinejs";
 import logo from "../img/logo2.png";
 
@@ -47,22 +48,25 @@ const Header = () => {
       <div className="px-16 bg-black py-3 text-white w-full mb-8">
         <ul className=" flex space-x-2 space-y-2 space-y-0 justify-end gap-4 text-xs ">
           <li>
-            <a href="">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <a href="">PRICING</a>
+            <Link to="/pricing">PRICING</Link>
           </li>
           <li>
-            <a href="">APPLY NOW</a>{" "}
+            <Link to="/apply">APPLY NOW</Link>
           </li>
           <li>
-            <a href="">CONTACT US</a>{" "}
+            <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
       </div>
       <div className="bg-transparent">
         <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-white">
-          <div className="w-16 h-16 flex gap-1 justify-center items-center ml-8">
+          <Link
+            to="/"
+            className="w-16 h-16 flex gap-1 justify-center items-center ml-8"
+          >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-white font-bold text-lg">
               <p className="leading-none">
@@ -70,7 +74,7 @@ const Header = () => {
                 ECONOMIC <br /> ZONE
               </p>
             </div>
-          </div>
+          </Link>
 
           <div
             className={`${
@@ -81,43 +85,35 @@ const Header = () => {
           >
             <ul className="w-full flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end">
               <li className="relative">
-                <button onMouseOver={dropdownHandler1}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
-                  >
-                    ABOUT GEZ
-                  </a>
+                <button
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                  onClick={dropdownHandler1}
+                >
+                  ABOUT GEZ
                 </button>
               </li>
               <li className="relative">
-                <button onMouseOver={dropdownHandler2}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
-                  >
-                    BUSINESS SET-UP
-                  </a>
+                <button
+                  onClick={dropdownHandler2}
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                >
+                  BUSINESS SET-UP
                 </button>
               </li>
               <li className="relative">
-                <button onMouseOver={dropdownHandler3}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
-                  >
-                    FACILITIES
-                  </a>
+                <button
+                  onClick={dropdownHandler3}
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                >
+                  FACILITIES
                 </button>
               </li>
               <li className="relative">
-                <button onMouseOver={dropdownHandler4}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
-                  >
-                    MEDIA CENTER
-                  </a>
+                <button
+                  onClick={dropdownHandler4}
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                >
+                  MEDIA CENTER
                 </button>
               </li>
             </ul>
@@ -152,25 +148,19 @@ const Header = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              GEZ- THE PROJECT
-            </a>
+          <li className="flex p-2">
+            <Link to="/about">GEZ- THE PROJECT </Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              WHY INVEST IN GEZ
-            </a>
+
+          <li className="flex p-2">
+            <Link to="/investments">WHY INVEST IN GEZ </Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              THE PARTNERS & INVESTORS
-            </a>
+
+          <li className="flex p-2 ">
+            <Link to="/partners">THE PARTNERS & INVESTORS</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              WHY KADUNA
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/kaduna">WHY KADUNA</Link>
           </li>
         </ul>
       </div>

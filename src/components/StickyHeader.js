@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "alpinejs";
 import logo from "../img/logo2.png";
 
@@ -46,7 +47,10 @@ const StickyHeader = () => {
     <nav className="ease-out duration-100">
       <div className="bg-white">
         <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-black ">
-          <div className="w-12 h-12 flex gap-1 justify-center items-center ml-8">
+          <Link
+            to="/"
+            className="w-12 h-12 flex gap-1 justify-center items-center ml-8"
+          >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-black font-bold">
               <p className="leading-none">
@@ -54,7 +58,7 @@ const StickyHeader = () => {
                 ECONOMIC <br /> ZONE
               </p>
             </div>
-          </div>
+          </Link>
 
           <div
             className={`${
@@ -65,46 +69,38 @@ const StickyHeader = () => {
           >
             <ul className="w-full flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end lg:text-black">
               <li className="relative">
-                <button onMouseOver={dropdownHandler1}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  >
-                    ABOUT GEZ
-                  </a>
+                <button
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  onClick={dropdownHandler1}
+                >
+                  ABOUT GEZ
                 </button>
               </li>
 
               <li className="relative">
-                <button onMouseOver={dropdownHandler2}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  >
-                    BUSINESS SET-UP
-                  </a>
+                <button
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  onClick={dropdownHandler2}
+                >
+                  BUSINESS SET-UP
                 </button>
               </li>
 
               <li className="relative">
-                <button onMouseOver={dropdownHandler3}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  >
-                    FACILITIES
-                  </a>
+                <button
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  onClick={dropdownHandler3}
+                >
+                  FACILITIES
                 </button>
               </li>
 
               <li className="relative">
-                <button onMouseOver={dropdownHandler4}>
-                  <a
-                    href=""
-                    className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  >
-                    MEDIA CENTER
-                  </a>
+                <button
+                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  onClick={dropdownHandler4}
+                >
+                  MEDIA CENTER
                 </button>
               </li>
             </ul>
@@ -140,25 +136,19 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              GEZ- THE PROJECT
-            </a>
+          <li className="flex p-2">
+            <Link to="/about">GEZ- THE PROJECT </Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              WHY INVEST IN GEZ
-            </a>
+
+          <li className="flex p-2">
+            <Link to="/investments">WHY INVEST IN GEZ </Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              THE PARTNERS & INVESTORS
-            </a>
+
+          <li className="flex p-2 ">
+            <Link to="/partners">THE PARTNERS & INVESTORS</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              WHY KADUNA
-            </a>
+          <li className="flex p-2 ">
+            <Link to="/kaduna">WHY KADUNA</Link>
           </li>
         </ul>
       </div>
@@ -170,35 +160,23 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              CLUSTERS AND LAYOUT
-            </a>
+          <li className="flex p-2 ">
+            <Link to="clusters">CLUSTERS AND LAYOUT</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              INCENTIVES
-            </a>
+          <li className="flex p-2 ">
+            <Link to="incentives">INCENTIVES</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              HOW TO APPLY
-            </a>
+          <li className="flex p-2 ">
+            <Link to="how-to">HOW TO APPLY</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              TERMS AND CONDITIONS
-            </a>
+          <li className="flex p-2 ">
+            <Link to="t-and-c">TERMS AND CONDITIONS</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              GOVERNMENT POLICY
-            </a>
+          <li className="flex p-2 ">
+            <Link to="government-policy">GOVERNMENT POLICY</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              TALK WITH AN EXPERT
-            </a>
+          <li className="flex p-2 ">
+            <Link to="talk-with-expert">TALK WITH AN EXPERT</Link>
           </li>
         </ul>
       </div>
@@ -210,10 +188,8 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              PARK AMENITIES & INFRASTRUCTURE
-            </a>
+          <li className="flex p-2 ">
+            <Link to="infrastructure">PARK AMENITIES & INFRASTRUCTURE</Link>
           </li>
         </ul>
       </div>
@@ -225,15 +201,11 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li>
-            <a className="flex p-2 " href="">
-              NEWS
-            </a>
+          <li className="flex p-2 ">
+            <Link to="news">NEWS</Link>
           </li>
-          <li>
-            <a className="flex p-2 " href="">
-              EVENTS
-            </a>
+          <li className="flex p-2 ">
+            <Link to="events">EVENTS</Link>
           </li>
         </ul>
       </div>
