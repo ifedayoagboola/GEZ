@@ -35,9 +35,9 @@
 .slider .slider-track {
   display: flex;
   gap: 100px;
-  /* 
+
   width: calc(250px * 14);
-  animation: scroll 40s infinite linear; */
+  animation: scroll 40s infinite linear;
 }
 .slider .slide img {
   width: 100%;
