@@ -51,8 +51,9 @@ const Home = () => {
   };
   window.addEventListener("scroll", navHandler);
   return (
-    <div className="">
-      <section className="">
+    <div>
+      /* Navbar and background image section */
+      <section>
         <div className="fixed w-full">
           {navbar ? <StickyHeader /> : <Header />}
         </div>
@@ -73,7 +74,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="">
         <div className="text-xl lg:text-2xl flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start ">
           <div
@@ -165,7 +165,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="">
         <Footer />
       </section>
