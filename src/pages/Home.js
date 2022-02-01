@@ -52,7 +52,7 @@ const Home = () => {
   window.addEventListener("scroll", navHandler);
   return (
     <div>
-      /* Navbar and background image section */
+      {/* Navbar and background image section */}
       <section>
         <div className="fixed w-full">
           {navbar ? <StickyHeader /> : <Header />}

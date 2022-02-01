@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-/* import pages */
+{
+  /* import pages */
+}
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Business from "./pages/Business";
@@ -7,7 +9,9 @@ import Contact from "./pages/Contact";
 import Media from "./pages/Media";
 import Pricing from "./pages/Pricing";
 import Apply from "./pages/Apply";
-/* import components */
+{
+  /* import components */
+}
 import Clusters from "./components/Clusters";
 import Events from "./components/Events";
 import Gez from "./components/Gez";
@@ -26,7 +30,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        /* page routes */
+        {/* page routes */}
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/business" element={<Business />} />
@@ -34,7 +38,7 @@ function App() {
         <Route path="/media" element={<Media />} />
         <Route path="/apply" element={<Apply />} />
         <Route path="/pricing" element={<Pricing />} />
-        /* components routes */
+        {/* components routes */}
         <Route path="/clusters" element={<Clusters />} />
         <Route path="/events" element={<Events />} />
         <Route path="/gez-the-project" element={<Gez />} />
