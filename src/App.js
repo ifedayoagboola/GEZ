@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-{
-  /* import pages */
-}
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Business from "./pages/Business";
@@ -9,9 +7,7 @@ import Contact from "./pages/Contact";
 import Media from "./pages/Media";
 import Pricing from "./pages/Pricing";
 import Apply from "./pages/Apply";
-{
-  /* import components */
-}
+
 import Clusters from "./components/Clusters";
 import Events from "./components/Events";
 import Gez from "./components/Gez";
