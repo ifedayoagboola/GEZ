@@ -10,6 +10,7 @@ import values from "../img/values.svg";
 
 import NewsCard from "../components/NewsCard";
 import StickyHeader from "../components/StickyHeader";
+import WhyInvest from "../components/WhyInvest";
 
 const About = () => {
   const [navbar, setNavbar] = useState(false);
@@ -41,7 +42,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-xl ">
+      <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base ">
         <p className="container mx-auto px-12 py-6">
           Designed to provide a “plug and play” facility for Micro, Small and
           Medium Enterprises (MSMEs) to enable them to operate competitively.
@@ -149,30 +150,10 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* <section className="">
-        <div className="px-4 lg:px-20">
-          <p className="text-2xl font-semibold py-8 text-gray-700">
-            CLUSTERS AND LAYOUT
-            <span className="text-green-600 font-bold">/</span>
-          </p>
-          <div className="flex flex-col lg:flex-row gap-4 items-center">
-            {articles.map((article) => {
-              return <NewsCard key={article.id} article={article} />;
-            })}
-          </div>
-          <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
-            READ MORE NEWS...
-          </p>
-        </div>
-      </section> */}
-      {/* <section className="">
-        <div style={{ background: "#dddddd" }} className="px-20">
-          <p className="text-2xl font-semibold py-8 text-gray-700">
-            OUR PARTNERS<span className="text-green-600 font-bold">/</span>
-          </p>
-          <ClientsCarousel />
-        </div>
-      </section> */}
+
+      <section>
+        <WhyInvest />
+      </section>
       <section className="">
         <div
           style={{ background: "#373A36" }}
@@ -192,7 +173,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
       <section className="">
         <Footer />
       </section>
