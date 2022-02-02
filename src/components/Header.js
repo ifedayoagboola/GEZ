@@ -153,7 +153,7 @@ const Header = () => {
           </li>
 
           <li className="flex p-2">
-            <Link to="/investments">WHY INVEST IN GEZ </Link>
+            <Link to="/about/investments">WHY INVEST IN GEZ </Link>
           </li>
 
           <li className="flex p-2 ">

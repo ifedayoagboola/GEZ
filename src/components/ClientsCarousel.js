@@ -5,12 +5,13 @@ import cl1 from "../img/cl1.png";
 import cl2 from "../img/cl2.png";
 import cl3 from "../img/cl3.png";
 import cl4 from "../img/cl4.png";
-function ClientsCarousel() {
+function ClientsCarousel({ sliderDirection }) {
+  console.log(sliderDirection);
   return (
     <div>
       <section className="carousel">
         <div className="slider">
-          <div className="slider-track">
+          <div className={sliderDirection}>
             <div className="slide w-100 h-100">
               {/* <img src="" alt="" /> */}
             </div>

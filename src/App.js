@@ -47,7 +47,7 @@ function App() {
         <Route path="/partners" element={<Partners />} />
         <Route path="/talk-with-expert" element={<TalkWithExpert />} />
         <Route path="/Terms-and-conditions" element={<TermsAndConditions />} />
-        <Route path="/investments" element={<WhyInvest />} />
+        <Route path="/about/investments" element={<WhyInvest />} />
       </Routes>
     </Router>
   );
