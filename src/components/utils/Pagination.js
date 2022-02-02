@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+
 
 const Pagination = ({ picturesPerPage, totalPictures, paginate }) => {
 	const pageNumbers = [];
