@@ -142,7 +142,7 @@ const Home = () => {
           <p className="text-2xl font-semibold py-8 text-gray-700">
             OUR PARTNERS<span className="text-green-600 font-bold">/</span>
           </p>
-          <ClientsCarousel />
+          <ClientsCarousel sliderDirection="slider-left" />
         </div>
       </section>
       <section className="">
