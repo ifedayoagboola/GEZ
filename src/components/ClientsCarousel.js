@@ -21,7 +21,7 @@ function ClientsCarousel({ sliderDirection }) {
             <div className="slide">
               <img src={cl3} alt="" />
             </div>
-            <div className="slide">
+            <div className="slide" style={{ width: "150px", height: "100px" }}>
               <img src={cl4} alt="" />
             </div>
             <div className="slide">
