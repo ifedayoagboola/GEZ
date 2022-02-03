@@ -78,7 +78,7 @@ const WhyInvest = () => {
       <div
         className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
         style={{
-          backgroundImage: "url(/assets/bg2.jpg)",
+          backgroundImage: "url(/assets/aboutbg4.jpg)",
         }}
       ></div>
     </div>

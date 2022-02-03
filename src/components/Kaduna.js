@@ -128,7 +128,7 @@ const Kaduna = () => {
           <div
             className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
             style={{
-              backgroundImage: "url(/assets/bg2.jpg)",
+              backgroundImage: "url(/assets/kdbg2.jpg)",
             }}
           ></div>
         </div>
@@ -137,7 +137,7 @@ const Kaduna = () => {
           <div
             className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
             style={{
-              backgroundImage: "url(/assets/bg2.jpg)",
+              backgroundImage: "url(/assets/kdbg1.jpg)",
             }}
           ></div>
 
