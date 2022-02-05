@@ -10,6 +10,8 @@ import { newData } from '../newsData';
 import StickyHeader from '../components/StickyHeader';
 import Pagination from '../components/utils/Pagination';
 
+
+
 const Media = () => {
 	const [navbar, setNavbar] = useState(false);
 	const [images] = useState(newData);
@@ -47,7 +49,7 @@ const Media = () => {
 				<div
 					className='w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left'
 					style={{
-						backgroundImage: 'url(/assets/newsImages/news.jpeg)',
+						backgroundImage: 'url(/assets/newsImages/editedNews.jpeg)',
 					}}
 				>
 					<div className='text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12'>
@@ -87,7 +89,7 @@ const Media = () => {
 							return (
 								<button key={id} className='shadow-md rounded-lg'>
 									<div className='relative'>
-										<img src={image} alt='' width={400} height={400} />
+										<img src={image} alt='' width={400} height={400}  />
 										<div className='absolute inset-x-0 bottom-0'>
                       <div className='pr-40 py-6 bg-slate-300'>
                       <span className='pr-24'>
@@ -107,6 +109,7 @@ const Media = () => {
         <Pagination picturesPerPage={picturesPerPage} totalPictures={images.length} paginate={paginateAction} />
 				{/* Pagination components */}
 			</section>
+			
 			<section className=''>
 				<div
 					style={{ background: '#373A36' }}

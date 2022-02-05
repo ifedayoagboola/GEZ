@@ -36,12 +36,12 @@ const Header = () => {
 		setDropdownOpen3(false);
 		setDropdownOpen4(true);
 	};
-	const dropdownHandler5 = () => {
-		setDropdownOpen1(false);
-		setDropdownOpen2(false);
-		setDropdownOpen3(false);
-		setDropdownOpen4(false);
-	};
+	// const dropdownHandler5 = () => {
+	// 	setDropdownOpen1(false);
+	// 	setDropdownOpen2(false);
+	// 	setDropdownOpen3(false);
+	// 	setDropdownOpen4(false);
+	// };
 
 	return (
 		<nav className='ease-out duration-100'>
@@ -175,15 +175,15 @@ const Header = () => {
 					<li className='flex p-2 '>
 						<Link to='/clusters'>CLUSTERS AND LAYOUT</Link>
 					</li>
-					<li className='flex p-2 '>
+					{/* <li className='flex p-2 '>
 						<Link to='/incentives'>INCENTIVES</Link>
-					</li>
+					</li> */}
 					<li className='flex p-2 '>
 						<Link to='/how-to'>HOW TO APPLY</Link>
 					</li>
-					<li className='flex p-2 '>
+					{/* <li className='flex p-2 '>
 						<Link to='/t-and-c'>TERMS AND CONDITIONS</Link>
-					</li>
+					</li> */}
 					<li className='flex p-2 '>
 						<Link to='/government-policy'>GOVERNMENT POLICY</Link>
 					</li>
