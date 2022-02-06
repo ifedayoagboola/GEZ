@@ -70,9 +70,9 @@ const WhyInvest = () => {
             7. IMMIGRATION WAIVERS. There would be no expatriate quota for
             managers working in the zone.
           </p>
-          <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
+          {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
             LEARN MORE...
-          </p>
+          </p> */}
         </div>
       </div>
       <div

@@ -92,9 +92,9 @@ const Home = () => {
                 Small & Medium Enterprises (MSMEs) making it the backbone and
                 catalyst for sustainable regional development.
               </p>
-              <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
+              {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
                 LEARN MORE...
-              </p>
+              </p> */}
             </div>
           </div>
           <div
@@ -114,9 +114,9 @@ const Home = () => {
                 hectares of land strategically located on the Kaduna-Jos road,
                 opposite the fifth Chukker Resort, Igabi, LGA, Kaduna State.
               </p>
-              <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
+              {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
                 LEARN MORE...
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@ const Home = () => {
             })}
           </div>
           <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
-            READ MORE NEWS...
+            {/* READ MORE NEWS... */}
           </p>
         </div>
       </section>

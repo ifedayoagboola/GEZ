@@ -179,7 +179,7 @@ const Header = () => {
 						<Link to='/incentives'>INCENTIVES</Link>
 					</li> */}
           <li className="flex p-2 ">
-            <Link to="/how-to">HOW TO APPLY</Link>
+            <Link to="/apply">HOW TO APPLY</Link>
           </li>
           {/* <li className='flex p-2 '>
 						<Link to='/t-and-c'>TERMS AND CONDITIONS</Link>

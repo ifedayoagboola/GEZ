@@ -40,7 +40,7 @@ const About = () => {
         </div>
       </section>
       <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base ">
-        <p className="container mx-auto px-12 py-6">
+        <p className="container mx-auto px-12 py-6 text-center">
           Designed to provide a “plug and play” facility for Micro, Small and
           Medium Enterprises (MSMEs) to enable them to operate competitively.
         </p>
@@ -77,9 +77,9 @@ const About = () => {
                 cost of doing business providing jobs and boosting the economy
                 of the state.
               </p>
-              <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
+              {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
                 LEARN MORE...
-              </p>
+              </p> */}
             </div>
           </div>
           <div
