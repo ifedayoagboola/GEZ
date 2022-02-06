@@ -1,6 +1,6 @@
 import layout from './img/newsImages/layout.jpeg'
 import ledipico from './img/newsImages/LEPIDICO-SIGNING.jpeg'
-import sheep from './img/sheep.jpeg'
+
 
 export const newData = [
   {
