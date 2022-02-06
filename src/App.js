@@ -12,7 +12,7 @@ import Clusters from "./components/Clusters";
 import Events from "./components/Events";
 import Gez from "./components/Gez";
 import GovernmentPolicy from "./components/GovernmentPolicy";
-import HowToApply from "./components/HowToApply";
+// import HowToApply from "./components/HowToApply";
 import Incentives from "./components/Incentives";
 import Kaduna from "./components/Kaduna";
 import News from "./components/News";
@@ -39,7 +39,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/gez-the-project" element={<Gez />} />
         <Route path="/government-policy" element={<GovernmentPolicy />} />
-        <Route path="/how-to-apply" element={<HowToApply />} />
+        <Route path="/apply" element={<Apply />} />
         <Route path="/incentives" element={<Incentives />} />
         <Route path="/kaduna" element={<Kaduna />} />
         <Route path="/news" element={<News />} />

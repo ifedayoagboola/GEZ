@@ -179,7 +179,7 @@ const Header = () => {
 						<Link to='/incentives'>INCENTIVES</Link>
 					</li> */}
 					<li className='flex p-2 '>
-						<Link to='/how-to'>HOW TO APPLY</Link>
+						<Link to='/apply'>HOW TO APPLY</Link>
 					</li>
 					{/* <li className='flex p-2 '>
 						<Link to='/t-and-c'>TERMS AND CONDITIONS</Link>
@@ -188,7 +188,7 @@ const Header = () => {
 						<Link to='/government-policy'>GOVERNMENT POLICY</Link>
 					</li>
 					<li className='flex p-2 '>
-						<Link to='/talk-with-expert'>TALK WITH AN EXPERT</Link>
+						<Link to='/contact'>TALK WITH AN EXPERT</Link>
 					</li>
 				</ul>
 			</div>
