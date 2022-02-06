@@ -31,10 +31,12 @@ const Contact = () => {
               KK KINGDOM NIGERIA LTD
               <span className="text-green-600">/</span> <br />
               <p className="text-xl text-white py-2 font-normal">
-                HEAD OFFICE:319 Off Ahmadu Bello way, Kado, Abuja, Nigeria
+                <span className="text-green-600">HEAD OFFICE: </span>319 Off
+                Ahmadu Bello way, Kado, Abuja, Nigeria
               </p>
               <p className="text-xl text-white py-2 font-normal">
-                KADUNA OFFICE: JJ5/4 Paul Achimigu, Malali, Kaduna
+                <span className="text-green-600">KADUNA OFFICE: </span>JJ5/4
+                Paul Achimigu, Malali, Kaduna
               </p>
               <p className="text-sm text-white py-2 font-normal">
                 Office Main Line: + 234 (09) 2920102

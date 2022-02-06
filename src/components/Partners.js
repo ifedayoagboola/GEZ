@@ -29,38 +29,49 @@ const Partners = () => {
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
-            PARTNERS<span className="text-green-600"> /</span> <br />
-            <p className="text-base text-green-600 pt-5 font-semibold">
-              THE GREEN ECONOMIC ZONE AT A GLANCE
-            </p>
+            PARTNERS<span className="text-green-600"> /</span>
           </div>
         </div>
       </section>
       <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base ">
         <p className="container mx-auto px-12 py-6">
-          Kaduna state government in partnership with KK Kingdom an indigenous
-          construction company based in Abuja Nigeria have signed an agreement
-          to deliver a state of the art Economic Green Zone situated in Igabi,
-          LGA, Kaduna State in 2 years.
+          <p className="text-base text-green-600 pt-5 font-semibold">
+            THE GREEN ECONOMIC ZONE AT A GLANCE
+          </p>
+          The Green Economic Zone is one of the innovative business projects
+          conceived by the visionary leadership His Excellency Nasir El Rufai’s
+          administration. On the October, 2021 the Kaduna state government
+          signed a partnership agreement with KK Kingdom an indigenous
+          construction company based in Abuja Nigeria to deliver a state of the
+          art Economic Green Zone situated in Igabi, LGA, Kaduna State in 2
+          years.
         </p>
-        <div
-          className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base"
-          // style={{
-          //   borderTop: "1px solid green",
-          //   borderBottom: "1px solid green",
-          //   borderLeft: "1px solid green",
-          //   borderRight: "1px solid green",
-          // }}
-        >
+        <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base">
           <p className="container mx-auto px-12 py-6">
-            <div className="text-green-600 font-bold">ABOUT KK KINGDOM</div>
-            KK Kingdom Nigeria Limited is a top notch indigenous construction
+            <div className="text-green-600 font-bold">LEAD PARTNERS</div>
+            KK KINGDOM NIGERIA LIMITED is a top notch indigenous construction
             company based in FCT, Abuja, Nigeria, with a track record of over
             ten years executing iconic projects under their belt. Our portfolio
             of dynamic, elegant, sophisticated modern structures speaks for
             themselves trusting in our uncompromising dedication to quality and
             safety protocols which has gained us the reputation as the partner
-            of choice in the construction industry.
+            of choice in the construction industry. We are proud of our latest
+            project which is the development of the Green Economic Zone (GEZ) in
+            partnership with the Kaduna State Government, Nigeria. Imagine the
+            perfect fusion of prestige, sustainable living and technology in one
+            place. This is not imaginary – It is a revolution. The FUTURE is
+            here.
+          </p>
+
+          <p className="container mx-auto px-12 py-6">
+            <div className="text-green-600 font-bold">STRATEGIC PARTNERS</div>
+            AFREXIM BANK – The African Export-Import Bank was established in
+            1993 by African governments, African private and institutional
+            investors, and non-African financial institutions and private
+            investors. Its purpose is the financing, promoting and expanding of
+            intra-African and extra-African trade. It’s headquarters in Cairo
+            and has branch offices in Harare, Zimbabwe and Abuja, Nigeria, with
+            an authorized share capital of $750 million.
           </p>
         </div>
       </div>
@@ -72,23 +83,7 @@ const Partners = () => {
         <ClientsCarousel sliderDirection="slider-static" />
         <ClientsCarousel sliderDirection="slider-static" /> */}
       </section>
-      <section>
-        <p className="container mx-auto px-12 py-6">
-          The Green Economic Zone (GEZ) is an industrial park sited on 717
-          hectares of land, strategically located on the Kaduna-Jos road. GEZ is
-          designed to provide a “plug and play” facility for Micro, Small &
-          Medium Enterprises (MSMEs) making it a catalyst for sustainable
-          regional development. GEZ is designed for the future. But ready for
-          today.
-        </p>
-        <p className="container mx-auto px-12 py-6">
-          We are proud of our latest project which is the development of the
-          Green Economic Zone (GEZ) in partnership with the Kaduna State
-          Government, Nigeria. Imagine the perfect fusion of prestige,
-          sustainable living and technology in one place. This is not imaginary
-          – It is a revolution. The FUTURE is here.
-        </p>
-      </section>
+
       <section className="">
         <div
           style={{ background: "#373A36" }}

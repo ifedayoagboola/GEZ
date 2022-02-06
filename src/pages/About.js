@@ -1,15 +1,12 @@
 import React, { useState } from "react";
-import ClientsCarousel from "../components/ClientsCarousel";
 import Footer from "../components/Footer";
 import StickyHeader from "../components/StickyHeader";
 import Header from "../components/Header";
 
-import aboutImg from "../img/aboutbg.jpg";
 import mission from "../img/mission.svg";
 import vision from "../img/vision.svg";
 import values from "../img/values.svg";
 
-import NewsCard from "../components/NewsCard";
 import WhyInvest from "../components/WhyInvest";
 
 const About = () => {

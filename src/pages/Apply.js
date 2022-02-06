@@ -27,14 +27,26 @@ const Apply = () => {
           }}
         >
           <div className="flex flex-col lg:flex-row justify-center items-center container mx-auto px-8 lg:px-16 sm:h-full py-20">
-            <div className="w-full lg:w-1/2 mt-28 text-white text-left text-4xl lg:text-5xl font-bold leading-tight ">
-              EXPRESSION OF INTEREST FORM
-              <span className="text-green-600">/</span> <br />
+            <div className="w-full lg:w-1/2 mt-28 text-white text-left text-4xl lg:text-5xl leading-tight ">
+              <p className="font-bold">
+                APPLY NOW <span className="text-green-600">/</span>
+              </p>
+              <br />
               <p className="text-xl text-white pt-5 font-semibold">
-                Investment Application
+                A Modern, Sustainable and Innovative Business Park
+              </p>
+              <p className="text-sm text-white pt-5 ">
+                GEZ as a “Special Area” will take advantage of the open green
+                eco system to promote the integration of local and international
+                businesses, optimized financial services, cutting-edge
+                scientific and technological research and development,
+                cross-border trade service and other functions.
               </p>
             </div>
             <div className="text-black w-full lg:w-1/2 mt-20 container mx-auto">
+              <p className="text-xl text-white pt-5 font-semibold">
+                EXPRESSION OF INTEREST FORM
+              </p>
               <p className="text-red-500 text-sm">
                 Please Go through the Checklist on our website and make sure you
                 meet the criteria before submission.
