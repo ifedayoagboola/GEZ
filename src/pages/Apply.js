@@ -23,7 +23,7 @@ const Apply = () => {
         <div
           className="w-full lg:h-screen bg-no-repeat bg-cover"
           style={{
-            backgroundImage: "url(/assets/aboutbg3.jpg)",
+            backgroundImage: "url(/assets/bckgrnd-2.jpg)",
           }}
         >
           <div className="flex flex-col lg:flex-row justify-center items-center container mx-auto px-8 lg:px-16 sm:h-full py-20">
@@ -53,12 +53,12 @@ const Apply = () => {
                   />
                   <div className="flex gap-2">
                     <input
-                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white"
+                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white w-full"
                       type="text"
                       placeholder="Phone"
                     />
                     <input
-                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white"
+                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white w-full"
                       type="text"
                       placeholder="Type name"
                     />
@@ -72,12 +72,12 @@ const Apply = () => {
 
                   <div className="flex gap-2">
                     <input
-                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white"
+                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white w-full"
                       type="text"
                       placeholder="Position"
                     />
                     <input
-                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white"
+                      className="p-2 bg-gray-400 bg-opacity-50 rounded focus:border-green-600 text-white w-full"
                       type="text"
                       placeholder="Country"
                     />
@@ -94,6 +94,9 @@ const Apply = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );
