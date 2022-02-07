@@ -26,7 +26,7 @@ const ParkAmenities = () => {
         <div
           className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
           style={{
-            backgroundImage: "url(/assets/infra2.jpg)",
+            backgroundImage: "url(/assets/partners.jpg)",
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
