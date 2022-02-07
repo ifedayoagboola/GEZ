@@ -21,7 +21,7 @@ const NewsCard = ({ article }) => {
 							<div className='absolute inset-0'>
 								<div className='h-full w-full'>
 									<div className='bg-black'>
-                    <div className='flex justify-end text-white p-4 animate-bounce' onClick={() => setIsOpen(!isOpen)}>X</div>
+                    <div className='flex justify-end text-white p-4 animate-bounce cursor-pointer' onClick={() => setIsOpen(!isOpen)}>X</div>
                     <div className='flex justify-center items-center'>
                       <div className='p-4'>
                         <p className='text-sm font-semibold mb-3 text-white'>{article.title}</p>
@@ -56,7 +56,7 @@ const NewsCard = ({ article }) => {
 								0,
 								100
 							)}...`}</p>
-							<div className='flex items-center flex-wrap hover:animate-bounce'>
+							<div className='flex items-center flex-wrap hover:animate-bounce cursor-pointer'>
 								<span
 									className='text-green-300 inline-flex items-center md:mb-2 lg:mb-0'
 									onClick={() => setIsOpen(!isOpen)}
