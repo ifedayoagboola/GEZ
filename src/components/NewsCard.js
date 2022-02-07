@@ -1,62 +1,73 @@
-import React, { useState } from 'react';
-import { Transition } from '@tailwindui/react';
+import React, { useState } from "react";
+import { Transition } from "@tailwindui/react";
 
 const NewsCard = ({ article }) => {
-	const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-	return (
-		<div className=' sm:w-full md:w-1/2 lg:w-1/4'>
-			<div className='h-full overflow-hidden'>
-				<div style={{ background: '#DDDDDD' }}>
-					<div className='relative'>
-						<Transition
-							show={isOpen}
-							enter='transition-opacity duration-75'
-							enterFrom='opacity-0'
-							enterTo='opacity-100'
-							leave='transition-opacity duration-150'
-							leaveFrom='opacity-100'
-							leaveTo='opacity-0'
-						>
-							<div className='absolute inset-0'>
-								<div className='h-full w-full'>
-									<div className='bg-black'>
-                    <div className='flex justify-end text-white p-4 animate-bounce' onClick={() => setIsOpen(!isOpen)}>X</div>
-                    <div className='flex justify-center items-center'>
-                      <div className='p-4'>
-                        <p className='text-sm font-semibold mb-3 text-white'>{article.title}</p>
-                        <p className='text-base font-medium text-green-300 mb-1'>{article.date}</p>
-                        <p className=' leading-relaxed mb-3 text-white'>{article.content}</p>
+  return (
+    <div className=" sm:w-full md:w-1/2 lg:w-1/4">
+      <div className="h-full overflow-hidden">
+        <div style={{ background: "#DDDDDD" }}>
+          <div className="relative">
+            <Transition
+              show={isOpen}
+              enter="transition-opacity duration-75"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="transition-opacity duration-150"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              <div className="absolute inset-0">
+                <div className="h-full w-full">
+                  <div className="bg-black">
+                    <div
+                      className="flex justify-end text-white p-4 animate-bounce"
+                      onClick={() => setIsOpen(!isOpen)}
+                    >
+                      X
+                    </div>
+                    <div className="flex justify-center items-center">
+                      <div className="p-4">
+                        <p className="text-sm font-semibold mb-3 text-white">
+                          {article.title}
+                        </p>
+                        <p className="text-base font-medium text-green-300 mb-1">
+                          {article.date}
+                        </p>
+                        <p className=" leading-relaxed mb-3 text-white">
+                          {article.content}
+                        </p>
                       </div>
                       {/* Quick fix */}
                       {/* <div className='w-'></div> */}
                     </div>
-									</div>
-								</div>
-							</div>
-						</Transition>
-					</div>
-					<div className='p-3 hover:bg-green-700 hover:text-white transition duration-300 ease-in'>
-						<div>
-							<img
-								className='lg:h-72 md:h-48 w-full object-cover object-center'
-								src={article.img}
-								alt=''
-							/>
-						</div>
-						<div className='py-6 '>
-							<p className='text-base font-medium text-green-300 mb-1'>
-								{article.date}
-							</p>
-							<p className='text-sm font-semibold mb-3'>{`${article.title.slice(
-								0,
-								36
-							)}...`}</p>
-							<p className=' leading-relaxed mb-3'>{`${article.content.slice(
-								0,
-								100
-							)}...`}</p>
-							<div className='flex items-center flex-wrap hover:animate-bounce'>
+                  </div>
+                </div>
+              </div>
+            </Transition>
+          </div>
+          <div className="p-3 hover:bg-green-700 hover:text-white transition duration-300 ease-in">
+            <div>
+              <img
+                className="lg:h-72 md:h-48 w-full object-cover object-center"
+                src={article.img}
+                alt=""
+              />
+            </div>
+            <div className="py-6 ">
+              <p className="text-base font-medium text-green-300 mb-1">
+                {article.date}
+              </p>
+              <p className="text-sm font-semibold mb-3">{`${article.title.slice(
+                0,
+                36
+              )}...`}</p>
+              <p className=" leading-relaxed mb-3">{`${article.content.slice(
+                0,
+                100
+              )}...`}</p>
+              {/* <div className='flex items-center flex-wrap hover:animate-bounce'>
 								<span
 									className='text-green-300 inline-flex items-center md:mb-2 lg:mb-0'
 									onClick={() => setIsOpen(!isOpen)}
@@ -104,13 +115,13 @@ const NewsCard = ({ article }) => {
 									</svg>
 									6
 								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
+							</div> */}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default NewsCard;

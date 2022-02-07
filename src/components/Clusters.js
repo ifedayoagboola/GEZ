@@ -72,7 +72,7 @@ const Clusters = () => {
         </div>
       </section>
       <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base ">
-        <p className="container mx-auto pl-6 py-6">
+        <p className="container mx-auto pl-6 py-6 text-center">
           Going Green Is Easy Green Growth means fostering economic growth and
           development, while ensuring that natural assets continue to provide
           the resources and environmental services on which our well-being
