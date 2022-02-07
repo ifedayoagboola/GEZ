@@ -10,6 +10,7 @@ import twitter from "../img/twitter.png";
 import { newData } from "../newsData";
 import StickyHeader from "../components/StickyHeader";
 import Pagination from "../components/utils/Pagination";
+import articles from "../MediaData";
 
 const Media = () => {
   const [navbar, setNavbar] = useState(false);
@@ -48,7 +49,8 @@ const Media = () => {
           }}
         >
           <div className="text-black text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
-            NEWS and EVENTS <span className="text-green-600">/</span> <br />
+            NEWS<span className="text-green-600">AND</span> EVENTS{" "}
+            <span className="text-green-600">/</span> <br />
             <p className="text-base text-black pt-5 font-semibold">
               THE GREEN ECONOMIC ZONE AT A GLANCE
             </p>
@@ -77,9 +79,9 @@ const Media = () => {
       <section>
         {/* Pagination components */}
         <div className="flex items-center justify-center py-10">
-          <div className="grid grid-cols-3 gap-4 container mx-auto px-8">
-            {currentPost.map((el) => {
-              const { id, date, content, image } = el;
+          <div className="grid grid-cols-4 gap-4 container mx-auto px-8">
+            {articles.map((el) => {
+              const { id, date, content, img } = el;
 
               return (
                 <div className=" h-full overflow-hidden">
@@ -127,7 +129,7 @@ const Media = () => {
                       <div>
                         <img
                           className="lg:h-72 md:h-48 w-full object-cover object-center"
-                          src={image}
+                          src={img}
                           alt=""
                         />
                       </div>

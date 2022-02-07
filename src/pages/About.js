@@ -28,7 +28,7 @@ const About = () => {
         <div
           className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
           style={{
-            backgroundImage: "url(/assets/aboutbg3.jpg)",
+            backgroundImage: "url(/assets/aboutbg4.jpg)",
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
@@ -95,10 +95,12 @@ const About = () => {
               <div className="container mx-auto px-8 lg:px-20 py-8 flex items-center gap-4">
                 <img src={vision} alt="" />
                 <div className="py-10">
-                  <p className="text-4xl font-semibold">OUR VISION</p>
-                  <p className="text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eos, consectetur?
+                  <p className="text-2xl font-semibold pb-2">LEAD PARTNERS</p>
+                  <p className="text-sm">
+                    KK KINGDOM NIGERIA LIMITED is a top notch indigenous
+                    construction company based in FCT, Abuja, Nigeria, with a
+                    track record of over ten years executing iconic projects
+                    under their belt.
                   </p>
                 </div>
               </div>
@@ -107,10 +109,14 @@ const About = () => {
               <div className="container mx-auto px-8 lg:px-20 py-8 flex items-center gap-4">
                 <img src={mission} alt="" />
                 <div className="py-10">
-                  <p className="text-4xl font-semibold">OUR MISSION</p>
-                  <p className="text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eos, consectetur?
+                  <p className="text-2xl font-semibold pb-2">
+                    STRATEGIC PARTNERS
+                  </p>
+                  <p className="text-sm">
+                    AFREXIM BANK – The African Export-Import Bank was
+                    established in 1993 by African governments, African private
+                    and institutional investors, and non-African financial
+                    institutions and private investors.
                   </p>
                 </div>
               </div>
@@ -126,22 +132,34 @@ const About = () => {
                   THE <span className="text-green-600">GREEN</span> ECONOMIC
                   ZONE AT A GLANCE
                 </p>
-                <p className="py-4">
+                <p className="py-2 text-sm">
                   It is a N15bn Industrial Park that will provide critical
                   infrastructure to enable firms set up manufacturing plants
                   within the industrial park.
                 </p>
-                <p className="py-4">
+                <p className="py-2 text-sm">
                   It is a Public Private Partnership between the Kaduna State
                   Government and KK Kingdom Ltd.
                 </p>
-                <p className="py-4">
+                <p className="py-2 text-sm">
                   It is one of the two industrial parks designed by the Nasir
                   El-Rufai administration.
                 </p>
-                {/* <p className="py-4">
+
+                <p className="py-2 text-sm">
                   It is a 717 Hectares Land located on the Kaduna –Jos Road.
-                </p> */}
+                </p>
+                <p className="py-2 text-sm">
+                  Designed to provide a safe, secure and eco-friendly
+                  environment for firms in the light manufacturing sector.
+                </p>
+                <p className="py-2 text-sm">
+                  The park is expected to provide jobs and boost the state's
+                  internally Generated Revenue.
+                </p>
+                <p className="py-2 text-sm">
+                  Expected to be completed and commissioned within two years.
+                </p>
               </div>
             </div>
           </div>
@@ -149,7 +167,88 @@ const About = () => {
       </section>
 
       <section>
-        <WhyInvest />
+        <div className="text-base flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start ">
+          <div
+            className="w-full lg:w-1/2 h-screen"
+            style={{ background: "#EBEBEB", color: "#000" }}
+          >
+            <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
+              <p className="text-2xl font-semibold py-8 text-gray-700">
+                WHY INVEST IN GREEN ZONE
+                <span className="text-green-600 font-bold">/</span>
+              </p>
+              <br />
+              {/* <p
+            className="font-normal text-gray-700 text-xl"
+            style={{ borderRight: "2px solid green" }}
+          >
+            The FUTURE is here for today. A phenomenal green economic zone
+            powered by the Kaduna State Government in partnership with KK
+            Kingdom an indigenous construction company based in FCT, Abuja,
+            Nigeria.
+          </p> */}
+              <p
+                className="font-light text-gray-700"
+                style={{ borderRight: "2px solid green" }}
+              >
+                1. COMPLETE TAX HOLIDAY from all Federal State and Local
+                Government taxes, rates and levies.
+              </p>
+              <p
+                className="font-light text-gray-700"
+                style={{ borderRight: "2px solid green" }}
+              >
+                2. DUTY FREE IMPORTATION on capital goods, machinery and
+                components, spare parts, raw materials and consumable items into
+                the zone.
+              </p>
+              <p
+                className="font-light text-gray-700"
+                style={{ borderRight: "2px solid green" }}
+              >
+                3. FOREIGN OWNERSHP 100% ownership of investments.
+              </p>
+              <p
+                className="font-light text-gray-700"
+                style={{ borderRight: "2px solid green" }}
+              >
+                4. REPATRATION OF PROFITS and dividends earned by foreign
+                investors in the zone.
+              </p>
+              <p
+                className="font-light text-gray-700"
+                style={{ borderRight: "2px solid green" }}
+              >
+                5. REPATRIATION OF CAPITAL 100% Repatriation of capital
+                investments in the zone at any time with capital appreciation of
+                the investment.
+              </p>
+              <p
+                className="font-light text-gray-700"
+                style={{ borderRight: "2px solid green" }}
+              >
+                6. EASE OF DOING BUSINESS one stop for approval, permits,
+                operating license, incorporation papers.
+              </p>
+              <p
+                className="font-light text-gray-700"
+                style={{ borderRight: "2px solid green" }}
+              >
+                7. IMMIGRATION WAIVERS. There would be no expatriate quota for
+                managers working in the zone.
+              </p>
+              {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
+            LEARN MORE...
+          </p> */}
+            </div>
+          </div>
+          <div
+            className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
+            style={{
+              backgroundImage: "url(/assets/aboutbg3.jpg)",
+            }}
+          ></div>
+        </div>
       </section>
       <section className="">
         <div

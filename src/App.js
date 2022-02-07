@@ -42,7 +42,7 @@ function App() {
         <Route path="/apply" element={<Apply />} />
         <Route path="/incentives" element={<Incentives />} />
         <Route path="/kaduna" element={<Kaduna />} />
-        <Route path="/news" element={<News />} />
+        <Route path="/news/:id" element={<News />} />
         <Route path="/park-amenities" element={<ParkAmenities />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/talk-with-expert" element={<TalkWithExpert />} />

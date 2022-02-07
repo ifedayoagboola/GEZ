@@ -22,19 +22,21 @@ const WhyInvest = () => {
         <div
           className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
           style={{
-            backgroundImage: "url(/assets/background.jpg)",
+            backgroundImage: "url(/assets/art3.jpg)",
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
-            WHY INVEST IN <span className="text-green-600">GREEN</span> <br />
-            ZONE
+            WHY GEZ <span className="text-green-600">?</span> <br />
           </div>
         </div>
       </section>
       <div className="text-base flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start ">
         <div
           className="w-full lg:w-1/2 h-screen"
-          style={{ background: "#EBEBEB", color: "#000" }}
+          style={{
+            background: "#EBEBEB",
+            color: "#000",
+          }}
         >
           <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
             <p className="text-2xl font-semibold py-8 text-gray-700">
@@ -109,7 +111,9 @@ const WhyInvest = () => {
         <div
           className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
           style={{
-            backgroundImage: "url(/assets/aboutbg4.jpg)",
+            backgroundImage: "url(/assets/art4.jpg)",
+            borderTop: "5px solid green",
+            borderBottom: "5px solid green",
           }}
         ></div>
       </div>

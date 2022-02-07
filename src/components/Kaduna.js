@@ -31,7 +31,7 @@ const Kaduna = () => {
         <div
           className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
           style={{
-            backgroundImage: "url(/assets/kaduna.jpg)",
+            backgroundImage: "url(/assets/kdbg2.jpg)",
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
@@ -128,7 +128,7 @@ const Kaduna = () => {
           <div
             className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
             style={{
-              backgroundImage: "url(/assets/kdbg2.jpg)",
+              backgroundImage: "url(/assets/kaduna.jpg)",
             }}
           ></div>
         </div>
