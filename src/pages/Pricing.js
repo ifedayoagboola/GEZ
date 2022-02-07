@@ -4,8 +4,8 @@ import Header from '../components/Header';
 import StickyHeader from '../components/StickyHeader';
 import zone1 from '../img/zone1.jpg';
 import zone2 from '../img/zone2.jpg';
-import zone3 from '../img/zone3.jpg';
-import zone4 from '../img/zone4.jpg';
+import zone3 from '../img/zone-3.jpg';
+import zone4 from '../img/zone-4.jpg';
 import { Link } from 'react-router-dom';
 
 const Pricing = () => {
@@ -48,9 +48,9 @@ const Pricing = () => {
 				<div className='py-5'>
 					<div className='flex'>
 						<Link to='#'>
-							<div className='relative'>
-								<img src={zone1} alt='' height={500} width={500} />
-								<div className='absolute inset-0 hover:bg-lime-500'>
+							<div className='relative border-r-4 border-b-4 border-gray-200'>
+								 <img src={zone1} alt='' height={500} width={500} /> 
+								<div className='absolute inset-0 hover:bg-lime-500 text-white'>
 									<h1 className='text-5xl text-center py-8'>
 										Zone-A
 									</h1>
@@ -63,9 +63,9 @@ const Pricing = () => {
 							</div>
 						</Link>
 						<Link to='#'>
-							<div className='relative'>
-								<img src={zone2} alt='' height={500} width={500} />
-								<div className='absolute inset-0 hover:bg-lime-500'>
+							<div className='relative border-l-4 border-b-4 border-gray-200'>
+								 <img src={zone4} alt='' height={500} width={500} /> 
+								<div className='absolute inset-0 hover:bg-lime-500 text-white'>
 									<h1 className='text-5xl text-center py-8'>
 										ZONE-B
 									</h1>
@@ -80,9 +80,9 @@ const Pricing = () => {
 					</div>
 					<div className='flex'>
 						<Link to='#'>
-							<div className='relative'>
-								<img src={zone3} alt='' height={500} width={500} />
-								<div className='absolute inset-0 hover:bg-lime-500'>
+							<div className='relative border-r-4 border-t-4 border-gray-200'>
+								 <img src={zone3} alt='' height={500} width={500} /> 
+								<div className='absolute inset-0 hover:bg-lime-500 text-white'>
 									<h1 className='text-5xl text-center py-8'>
 										ZONE-C
 									</h1>
@@ -95,9 +95,9 @@ const Pricing = () => {
 							</div>
 						</Link>
 						<Link to='#'>
-							<div className='relative'>
-								<img src={zone4} alt='' height={500} width={500} />
-								<div className='absolute inset-0 hover:bg-lime-500'>
+							<div className='relative border-l-4 border-t-4 border-gray-200'>
+								 <img src={zone2} alt='' height={500} width={500} /> 
+								<div className='absolute inset-0 hover:bg-lime-500 text-white'>
 									<h1 className='text-5xl text-center py-8'>
 										ZONE-D
 									</h1>
@@ -154,9 +154,9 @@ const Pricing = () => {
 								4. C of O is issued and deposited with the bank and will be
 								handed over to the anchor tenant on completion of payment.
 							</p>
-							<p className='cursor-pointer text-green-600 text-base font-semibold py-8'>
+							{/* <p className='cursor-pointer text-green-600 text-base font-semibold py-8'>
 								LEARN MORE...
-							</p>
+							</p> */}
 						</div>
 					</div>
 					<div
@@ -269,9 +269,9 @@ const Pricing = () => {
 							>
 								13. Water Treatment System Sewage System.
 							</p>
-							<p className='cursor-pointer text-green-600 text-base font-semibold py-8'>
+							{/* <p className='cursor-pointer text-green-600 text-base font-semibold py-8'>
 								LEARN MORE...
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>
