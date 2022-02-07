@@ -38,19 +38,19 @@ const Footer = () => {
               Conditions
             </p>
             <div className="flex items-center justify-center gap-4 py-4">
-              <div className="w-10 h-10">
+              <div className="w-10 h-10 hover:animate-bounce">
                 <img className="w-full" src={facebook} alt="" />
               </div>
-              <div className="w-10 h-10">
+              <div className="w-10 h-10 hover:animate-bounce">
                 <img className="w-full" src={gmail} alt="" />
               </div>
-              <div className="w-10 h-10">
+              <div className="w-10 h-10 hover:animate-bounce">
                 <img className="w-full" src={youtube} alt="" />
               </div>
-              <div className="w-10 h-10">
+              <div className="w-10 h-10 hover:animate-bounce">
                 <img className="w-full" src={instagram} alt="" />
               </div>
-              <div className="w-10 h-10">
+              <div className="w-10 h-10 hover:animate-bounce">
                 <img className="w-full" src={twitter} alt="" />
               </div>
             </div>
