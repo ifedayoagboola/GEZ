@@ -72,7 +72,7 @@ const Header = () => {
           <Link
             to="/"
             className="w-16 h-16 flex gap-1 justify-center items-center ml-8"
-            style={{ marginLeft: '200px' }}
+            style={{ marginLeft: '215px' }}
           >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-white font-bold text-lg">

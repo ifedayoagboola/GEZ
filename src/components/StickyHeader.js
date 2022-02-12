@@ -56,7 +56,7 @@ const StickyHeader = () => {
           <Link
             to="/"
             className="w-12 h-12 flex gap-1 justify-center items-center ml-8"
-            style={{ marginLeft: '200px' }}
+            style={{ marginLeft: '215px' }}
           >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-black font-bold">
