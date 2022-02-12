@@ -23,6 +23,17 @@ code {
   border-bottom-width: 4px;
 }
 
+
+
+@media (min-width: 768px){
+  .br-green {
+    border: 4px;
+    border-right-color: #16a34a;
+    border-bottom-color: #16a34a !important;
+  }
+}
+
+
 /* * {
   margin: 0;
   padding: 0;

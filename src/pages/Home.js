@@ -42,52 +42,45 @@ const Home = () => {
         </div>
       </section>
       <section className="">
-        <div className="text-xl lg:text-2xl flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start ">
-          <div
-            className="w-full lg:w-3/6 h-screen"
-            style={{ background: "#EBEBEB", color: "#000" }}
-          >
-            <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
-              <p className="text-2xl font-semibold py-8 text-gray-700">
-                THE GREEN ECONOMIC ZONE
-                <span className="text-green-600 font-bold">/</span>
-              </p>
-              <p className="font-light text-gray-700">
-                “<span className="text-green-600">Green</span> The FUTURE is
-                here for today. A phenomenal green economic zone powered by the
-                Kaduna State Government in partnership with KK Kingdom an
-                indigenous construction company based in FCT, Abuja, Nigeria.
-                GEZ is designed to provide a “plug and play” facility for Micro,
-                Small & Medium Enterprises (MSMEs) making it the backbone and
-                catalyst for sustainable regional development.
-              </p>
-              {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
+        <div className="text-xl lg:text-2xl flex flex-col lg:flex-row h-full w-full items-center lg:items-start p-8 ">
+
+          <div className="flex-col container mx-auto px-8 lg:p-20 h-full py-8  border-4 border-white lg:border-r-green-600  " >
+            <p className="text-2xl font-semibold py-8 text-gray-700">
+              THE GREEN ECONOMIC ZONE
+              <span className="text-green-600 font-bold">/</span>
+            </p>
+            <p className="font-light text-gray-700 text-justify">
+              “<span className="text-green-600">Green</span> The FUTURE is
+              here for today. A phenomenal green economic zone powered by the
+              Kaduna State Government in partnership with KK Kingdom an
+              indigenous construction company based in FCT, Abuja, Nigeria.
+              GEZ is designed to provide a “plug and play” facility for Micro,
+              Small & Medium Enterprises (MSMEs) making it the backbone and
+              catalyst for sustainable regional development.
+            </p>
+            {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
                 LEARN MORE...
               </p> */}
-            </div>
+
           </div>
-          <div
-            className="w-full lg:w-3/6 h-screen"
-            style={{ background: "#373A36", color: "#fff" }}
-          >
-            <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
-              <p className="text-2xl font-semibold py-8 text-white">
-                GEZ-THE PROJECT
-                <span className="text-green-600 font-bold">/</span>
-              </p>
-              <p className="font-light">
-                The Green Economic Zone (GEZ) is a N15bn Public/Private
-                partnership investment that will provide critical
-                infrastructures to enable firms setup manufacturing plants
-                within the industrial park. The industrial park is sited on 717
-                hectares of land strategically located on the Kaduna-Jos road,
-                opposite the fifth Chukker Resort, Igabi, LGA, Kaduna State.
-              </p>
-              {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
+          <div className="flex-col container mx-auto px-8 lg:p-20 py-8 ">
+            <p className="text-2xl font-semibold py-8 text-gray-700">
+              GEZ-THE PROJECT
+              <span className="text-green-600 font-bold">/</span>
+            </p>
+            <p className="font-light text-justify">
+              The Green Economic Zone (GEZ) is a N15bn Public/Private
+              partnership investment that will provide critical
+              infrastructures to enable firms setup manufacturing plants
+              within the industrial park. The industrial park is sited on 717
+              hectares of land strategically located on the Kaduna-Jos road,
+              opposite the fifth Chukker Resort, Igabi, LGA, Kaduna State.
+            </p>
+            {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
                 LEARN MORE...
               </p> */}
-            </div>
           </div>
+
         </div>
       </section>
       <section className="">
