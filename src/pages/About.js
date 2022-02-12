@@ -85,7 +85,7 @@ const About = () => {
           <div
             className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
             style={{
-              backgroundImage: "url(/assets/bg2.jpg)",
+              backgroundImage: "url(/assets/bg2.png)",
             }}
           ></div>
         </div>

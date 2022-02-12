@@ -36,6 +36,12 @@ const StickyHeader = () => {
     setDropdownOpen3(false);
     setDropdownOpen4(true);
   };
+  const noDropdownHandler = () => {
+    setDropdownOpen1(false);
+    setDropdownOpen2(false);
+    setDropdownOpen3(false);
+    setDropdownOpen4(false);
+  };
   // const dropdownHandler5 = () => {
   // 	setDropdownOpen1(false);
   // 	setDropdownOpen2(false);
@@ -61,44 +67,60 @@ const StickyHeader = () => {
           </Link>
 
           <div
-            className={`${
-              navbarOpen
-                ? "mt-2 lg:mt-0 ml-auto bg-black bg-opacity-60"
-                : "hidden w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0"
-            }`}
+            className={`${navbarOpen
+              ? "mt-2 lg:mt-0 ml-auto bg-black bg-opacity-60"
+              : "hidden w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0"
+              }`}
           >
             <ul className="w-full flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end lg:text-black">
-              <li className="relative">
+              <li className="relative"
+                onMouseEnter={() => {
+                  dropdownHandler1()
+                }}
+
+              >
                 <button
                   className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  onClick={dropdownHandler1}
                 >
                   ABOUT GEZ
                 </button>
               </li>
 
-              <li className="relative">
+              <li className="relative"
+                onMouseEnter={() => {
+                  dropdownHandler2()
+                }}
+              >
                 <button
                   className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  onClick={dropdownHandler2}
+
+
                 >
                   BUSINESS SET-UP
                 </button>
               </li>
 
-              <li className="relative">
+              <li className="relative"
+                onMouseEnter={() => {
+                  dropdownHandler3()
+                }}>
                 <button
                   className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  onClick={dropdownHandler3}
+
+
                 >
                   FACILITIES
                 </button>
               </li>
 
-              <li className="relative">
+              <li className="relative"
+                onMouseEnter={() => {
+                  dropdownHandler4()
+                }}>
                 <button
                   className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
-                  onClick={dropdownHandler4}
+
+
                 >
                   MEDIA CENTER
                 </button>
@@ -129,6 +151,12 @@ const StickyHeader = () => {
       </div>
 
       <div
+        onMouseEnter={() => {
+          dropdownHandler1()
+        }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen1
             ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
@@ -153,6 +181,12 @@ const StickyHeader = () => {
         </ul>
       </div>
       <div
+        onMouseEnter={() => {
+          dropdownHandler2()
+        }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen2
             ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
@@ -181,6 +215,12 @@ const StickyHeader = () => {
         </ul>
       </div>
       <div
+        onMouseEnter={() => {
+          dropdownHandler3()
+        }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen3
             ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
@@ -194,6 +234,12 @@ const StickyHeader = () => {
         </ul>
       </div>
       <div
+        onMouseEnter={() => {
+          dropdownHandler4()
+        }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen4
             ? "bg-black bg-opacity-60 left-0 w-full p-2 text-white text-xs font-thin"
