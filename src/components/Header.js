@@ -68,10 +68,11 @@ const Header = () => {
         </ul>
       </div>
       <div className="bg-transparent">
-        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-white">
+        <div className=" px-4 flex justify-between  py-2 lg:space-x-4 text-white">
           <Link
             to="/"
             className="w-16 h-16 flex gap-1 justify-center items-center ml-8"
+            style={{ marginLeft: '200px' }}
           >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-white font-bold text-lg">
@@ -89,46 +90,46 @@ const Header = () => {
               }`}
           >
             <ul className="w-full flex flex-col lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 justify-end">
-              <li className="relative"
+              <li className="relative border-d-4"
                 onMouseEnter={() => {
                   dropdownHandler1()
                 }}>
                 <button
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium  border-white outline-none focus:outline-none"
 
                 >
                   ABOUT GEZ
                 </button>
               </li>
-              <li className="relative"
+              <li className="relative border-d-4"
                 onMouseEnter={() => {
                   dropdownHandler2()
                 }}>
                 <button
 
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium  border-white outline-none focus:outline-none"
                 >
                   BUSINESS SET-UP
                 </button>
               </li>
-              <li className="relative"
+              <li className="relative border-d-4"
                 onMouseEnter={() => {
                   dropdownHandler3()
                 }}>
                 <button
 
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium  border-white outline-none focus:outline-none"
                 >
                   FACILITIES
                 </button>
               </li>
-              <li className="relative"
+              <li className="relative border-d-4"
                 onMouseEnter={() => {
                   dropdownHandler4()
                 }}>
                 <button
 
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-white outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium  border-white outline-none focus:outline-none"
                 >
                   MEDIA CENTER
                 </button>
@@ -158,79 +159,104 @@ const Header = () => {
       </div>
 
       <div
+        onMouseEnter={() => {
+          dropdownHandler1()
+        }}
+        // onMouseLeave={() => {
+        //   noDropdownHandler()
+        // }}
         className={
           dropdownOpen1
-            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
-            : "hidden lg:absolute bg-white right-0 rounded-md p-2"
+            ? "bg-black bg-opacity-50 left-0 w-full text-white text-sm font-thin"
+            : "hidden lg:absolute bg-white right-0 rounded-md "
         }
+
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/about">GEZ- THE PROJECT </Link>
           </li>
 
-          <li className="flex p-2">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/about/investments">WHY INVEST IN GEZ </Link>
           </li>
 
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4 " style={{ height: 50 }}>
             <Link to="/partners">THE PARTNERS & INVESTORS</Link>
           </li>
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4 " style={{ height: 50 }}>
             <Link to="/kaduna">WHY KADUNA</Link>
           </li>
         </ul>
       </div>
       <div
+        onMouseEnter={() => {
+          dropdownHandler2()
+        }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen2
-            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
-            : "hidden lg:absolute bg-white right-0 rounded-md p-2"
+            ? "bg-black bg-opacity-50 left-0 w-full  text-white text-sm font-thin"
+            : "hidden lg:absolute bg-white right-0 rounded-md"
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/clusters">CLUSTERS AND LAYOUT</Link>
           </li>
-          {/* <li className='flex p-2 '>
+          {/* <li className='flex p-4 border-d-4 '>
 						<Link to='/incentives'>INCENTIVES</Link>
 					</li> */}
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/apply">HOW TO APPLY</Link>
           </li>
-          {/* <li className='flex p-2 '>
+          {/* <li className='flex p-4 border-d-4 '>
 						<Link to='/t-and-c'>TERMS AND CONDITIONS</Link>
 					</li> */}
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/government-policy">GOVERNMENT POLICY</Link>
           </li>
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/contact">TALK WITH AN EXPERT</Link>
           </li>
         </ul>
       </div>
       <div
+        onMouseEnter={() => {
+          dropdownHandler3()
+        }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen3
-            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
-            : "hidden lg:absolute bg-white right-0 rounded-md p-2"
+            ? "bg-black bg-opacity-50 left-0 w-full text-white text-sm font-thin"
+            : "hidden lg:absolute bg-white right-0 rounded-md p-4 border-d-4"
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/park-amenities">PARK AMENITIES & INFRASTRUCTURE</Link>
           </li>
         </ul>
       </div>
       <div
+        onMouseEnter={() => {
+          dropdownHandler4()
+        }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen4
-            ? "bg-black bg-opacity-50 left-0 w-full p-2 text-white text-sm font-thin"
-            : "hidden lg:absolute bg-white right-0 rounded-md p-2"
+            ? "bg-black bg-opacity-50 left-0 w-full text-white text-sm font-thin"
+            : "hidden lg:absolute bg-white right-0 rounded-md"
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link
               to="/media
             "

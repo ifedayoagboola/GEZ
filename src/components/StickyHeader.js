@@ -52,10 +52,11 @@ const StickyHeader = () => {
   return (
     <nav className="ease-out duration-100">
       <div className="bg-white">
-        <div className=" container px-4 flex justify-between mx-auto py-2 lg:space-x-4 text-black ">
+        <div className="px-4 flex justify-between py-4 lg:space-x-4 text-black ">
           <Link
             to="/"
             className="w-12 h-12 flex gap-1 justify-center items-center ml-8"
+            style={{ marginLeft: '200px' }}
           >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-black font-bold">
@@ -80,7 +81,7 @@ const StickyHeader = () => {
 
               >
                 <button
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium border-d-4 border-green-600 outline-none focus:outline-none"
                 >
                   ABOUT GEZ
                 </button>
@@ -92,7 +93,7 @@ const StickyHeader = () => {
                 }}
               >
                 <button
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium border-d-4 border-green-600 outline-none focus:outline-none"
 
 
                 >
@@ -105,7 +106,7 @@ const StickyHeader = () => {
                   dropdownHandler3()
                 }}>
                 <button
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium border-d-4 border-green-600 outline-none focus:outline-none"
 
 
                 >
@@ -113,12 +114,12 @@ const StickyHeader = () => {
                 </button>
               </li>
 
-              <li className="relative"
+              <li className="relative "
                 onMouseEnter={() => {
                   dropdownHandler4()
                 }}>
                 <button
-                  className="flex px-4 py-2 font-medium hover:border-b-2 border-green-600 outline-none focus:outline-none"
+                  className="flex px-4 py-2 font-medium border-d-4 border-green-600 outline-none focus:outline-none"
 
 
                 >
