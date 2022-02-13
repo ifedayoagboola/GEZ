@@ -52,11 +52,11 @@ const StickyHeader = () => {
   return (
     <nav className="ease-out duration-100">
       <div className="bg-white">
-        <div className="px-4 flex justify-between py-4 lg:space-x-4 text-black ">
+        <div className="px-16 flex justify-between py-4 lg:space-x-4 text-black ">
           <Link
             to="/"
             className="w-12 h-12 flex gap-1 justify-center items-center ml-8"
-            style={{ marginLeft: '215px' }}
+          // style={{ marginLeft: '215px' }}
           >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-black font-bold">

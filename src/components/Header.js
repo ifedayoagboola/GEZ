@@ -68,11 +68,11 @@ const Header = () => {
         </ul>
       </div>
       <div className="bg-transparent">
-        <div className=" px-4 flex justify-between  py-2 lg:space-x-4 text-white">
+        <div className=" px-16 flex justify-between  py-2 lg:space-x-4 text-white">
           <Link
             to="/"
             className="w-16 h-16 flex gap-1 justify-center items-center ml-8"
-            style={{ marginLeft: '215px' }}
+          // style={{ marginLeft: '215px' }}
           >
             <img className=" w-full" src={logo} alt="" />
             <div className="text-white font-bold text-lg">
@@ -162,9 +162,9 @@ const Header = () => {
         onMouseEnter={() => {
           dropdownHandler1()
         }}
-        // onMouseLeave={() => {
-        //   noDropdownHandler()
-        // }}
+        onMouseLeave={() => {
+          noDropdownHandler()
+        }}
         className={
           dropdownOpen1
             ? "bg-black bg-opacity-50 left-0 w-full text-white text-sm font-thin"

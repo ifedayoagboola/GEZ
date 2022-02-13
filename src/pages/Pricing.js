@@ -283,7 +283,7 @@ const Pricing = () => {
               <span className="text-green-600 font-bold">/</span>
             </p>
             <p className="cursor-pointer text-green-600 text-base font-semibold">
-              Click here...
+              <a href="https://drive.google.com/file/d/1uFaJ4Pc_99UYwfDChgEp06FnZXWfVIxb/view?usp=sharing" style={{ textDecoration: 'none' }}>Click here...</a>
             </p>
           </div>
         </div>

@@ -30,7 +30,7 @@ const Clusters = () => {
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
             CLUSTERS <span className="text-green-600">AND</span> <br />
-            LAYOUT
+            LAYOUTS
           </div>
         </div>
       </section>
@@ -79,7 +79,7 @@ const Clusters = () => {
               <span className="text-green-600 font-bold">/</span>
             </p>
             <p className="cursor-pointer text-green-600 text-base font-semibold">
-              Click here...
+              <a href="https://drive.google.com/file/d/1uFaJ4Pc_99UYwfDChgEp06FnZXWfVIxb/view?usp=sharing" style={{ textDecoration: 'none' }}>Click here...</a>
             </p>
           </div>
         </div>

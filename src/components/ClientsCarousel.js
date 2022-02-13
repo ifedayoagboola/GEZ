@@ -12,19 +12,19 @@ function ClientsCarousel({ sliderDirection }) {
       <section className="carousel">
         <div className="slider">
           <div className={sliderDirection}>
-            <div className="slide w-100 h-100">
-              {/* <img src="" alt="" /> */}
-            </div>
-            <div className="slide w-100 h-100">
+            {/* <div className="slide w-100 h-100">
+               <img src="" alt="" /> 
+            </div>*/}
+            <div className="slide w-100 h-100 ">
               <img src={cl1} alt="" />
             </div>
-            <div className="slide">
+            <div className="slide ">
               <img src={cl3} alt="" />
             </div>
-            <div className="slide" style={{ width: "150px", height: "100px" }}>
+            <div className="slide " >
               <img src={cl4} alt="" />
             </div>
-            <div className="slide">
+            <div className="slide ">
               <img src={logo2} alt="" />
             </div>
           </div>
