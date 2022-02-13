@@ -37,7 +37,7 @@ const ParkAmenities = () => {
             className="w-full lg:w-1/2 h-screen"
             style={{ background: "#EBEBEB", color: "#000" }}
           >
-            <div className="container mx-auto px-8 lg:p-20 py-8 my-8">
+            <div className="container mx-auto px-8 lg:p-20 py-auto my-auto">
               <p className="text-2xl font-semibold pb-4 text-gray-700">
                 AMENITIES
                 <span className="text-green-600 font-bold">/</span>
