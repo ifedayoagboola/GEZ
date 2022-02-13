@@ -165,18 +165,18 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/about">GEZ- THE PROJECT </Link>
           </li>
 
-          <li className="flex p-2">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/about/investments">WHY INVEST IN GEZ </Link>
           </li>
 
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4 " style={{ height: 50 }}>
             <Link to="/partners">THE PARTNERS & INVESTORS</Link>
           </li>
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4 " style={{ height: 50 }}>
             <Link to="/kaduna">WHY KADUNA</Link>
           </li>
         </ul>
@@ -195,14 +195,14 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/clusters">CLUSTERS AND LAYOUT</Link>
           </li>
           {/* <li className='flex p-2 '>
 						<Link to='/incentives'>INCENTIVES</Link>
 					</li> */}
-          <li className="flex p-2 ">
-            <Link to="/apply">HOW TO APPLY</Link>
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
+            <Link to="/apply">APPLY/TALK WITH AN EXPERT</Link>
           </li>
           {/* <li className='flex p-2 '>
 						<Link to='/t-and-c'>TERMS AND CONDITIONS</Link>
@@ -210,9 +210,9 @@ const StickyHeader = () => {
           {/* <li className="flex p-2 ">
             <Link to="/government-policy">GOVERNMENT POLICY</Link>
           </li> */}
-          <li className="flex p-2 ">
+          {/* <li className="flex p-2 ">
             <Link to="/contact">TALK WITH AN EXPERT</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div
@@ -229,7 +229,7 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2 ">
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/park-amenities">PARK AMENITIES & INFRASTRUCTURE</Link>
           </li>
         </ul>
@@ -248,8 +248,13 @@ const StickyHeader = () => {
         }
       >
         <ul className="lg:w-full flex justify-end justify gap-5 items-center px-8">
-          <li className="flex p-2 ">
-            <Link to="/media">NEWS & EVENTS</Link>
+          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
+            <Link
+              to="/media
+            "
+            >
+              NEWS & EVENTS
+            </Link>
           </li>
         </ul>
       </div>

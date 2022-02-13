@@ -35,7 +35,7 @@ const Kaduna = () => {
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
-            WHY INVEST IN KADUNA<span className="text-green-600">?</span> <br />
+            WHY INVEST IN KADUNA <br />
             <p className="text-base text-white pt-5 font-semibold">
               ABOUT KADIPA
             </p>
@@ -246,7 +246,7 @@ const Kaduna = () => {
           <div
             className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
             style={{
-              backgroundImage: "url(/assets/kaduna.jpg)",
+              backgroundImage: "url(/assets/policy.jpeg)",
             }}
           ></div>
         </div>

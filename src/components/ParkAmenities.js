@@ -16,11 +16,7 @@ const ParkAmenities = () => {
   return (
     <div>
       <section className="">
-        <div
-          className={
-            !navbar ? "bg-black bg-opacity-60 fixed w-full" : "fixed w-full"
-          }
-        >
+        <div className="fixed w-full z-40">
           {navbar ? <StickyHeader /> : <Header />}
         </div>
         <div
@@ -34,109 +30,104 @@ const ParkAmenities = () => {
           </div>
         </div>
       </section>
-      <div className="text-base flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start mb-10">
-        <div
-          className="w-full lg:w-1/2 h-screen"
-          style={{ background: "#EBEBEB", color: "#000" }}
-        >
-          <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
-            <p className="text-2xl font-light py-8 text-gray-700">
-              The industrial park, is served with top notch infrastructures and
-              amenities:
-              {/* <span className="text-green-600 font-bold">/</span> */}
-            </p>
-            <br />
+      <section className="">
+        <div className="text-base flex flex-col lg:flex-row w-full items-center lg:items-start mb-10">
+          <div className="w-full lg:w-1/2 h-screen flex-col" style={{ background: "#EBEBEB", color: "#000" }}>
+            <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
+              <p className="text-2xl font-light py-4 mt-8 text-gray-700">
+                The industrial park, is served with top notch infrastructures and
+                amenities:
+                {/* <span className="text-green-600 font-bold">/</span> */}
+              </p>
+              <br />
+              <ul className="font-light text-gray-700 bullets text-lg list-outside text-justify" style={{ marginLeft: '1rem' }}>
+                <li
+                  className="p-1"
 
-            <p
-              className="font-light text-gray-700 text-base"
-              style={{ borderRight: "2px solid green" }}
-            >
-              Fiber Optics
-            </p>
-            <p
-              className="font-light text-gray-700 text-base"
-              style={{ borderRight: "2px solid green" }}
-            >
-              Solar street lights
-            </p>
-            <p
-              className="font-light text-gray-700 text-base"
-              style={{ borderRight: "2px solid green" }}
-            >
-              Paved walkways and breathtaking landscaped green areas
-            </p>
-            <p
-              className="font-light text-gray-700 text-base"
-              style={{ borderRight: "2px solid green" }}
-            >
-              3000metric tons of water supply from Kangimi dam{" "}
-            </p>
-            <p
-              className="font-light text-gray-700 text-base"
-              style={{ borderRight: "2px solid green" }}
-            >
-              Firefighters and Fire station
-            </p>
-            <p
-              className="font-light text-gray-700 text-base"
-              style={{ borderRight: "2px solid green" }}
-            >
-              Ultra-modern specialist hospital
-            </p>
-            <p
-              className="font-light text-gray-700 text-base"
-              style={{ borderRight: "2px solid green" }}
-            >
-              Central research and Laboratory
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              Warehouses
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              24hrs CCTV surveillance
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              1Skills development centers and administration blocks
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              1Environmental Cleaning and Annual Fumigation
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              1Domestic & Industrial Waste Including Evacuation
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              1Water Treatment System Sewage System
-            </p>
-            {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
-              LEARN MORE...
-            </p> */}
+                >
+                  Fibre Optics.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Solar street lights.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Paved walkways and breathtaking landscaped green areas.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  3000metric tons of water supply from Kangimi dam.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Firefighters and Fire station.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Ultra-modern specialist hospital.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Central Research and Laboratory.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Warehouses.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  24hrs CCTV surveillance.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  1Skills development centers and administration blocks.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Environmental Cleaning and Annual Fumigation.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Domestic & Industrial Waste Including Evacuation.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Water Treatment System Sewage System.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover p-16 pt-32 flex-col" >
+            <img src="/assets/infrastructure.jpg" className=" mt-16" />
           </div>
         </div>
-        <div
-          className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover"
-          style={{
-            backgroundImage: "url(/assets/infrastructure.jpg)",
-          }}
-        ></div>
-      </div>
+      </section>
+
       <Footer />
     </div>
   );

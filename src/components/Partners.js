@@ -63,7 +63,7 @@ const Partners = () => {
             here.
           </p>
 
-          <p className="container mx-auto px-12 py-6">
+          <p className="container mx-auto px-12 py-6  pb-16">
             <div className="text-green-600 font-bold  mb-2">STRATEGIC PARTNERS</div>
             AFREXIM BANK – The African Export-Import Bank was established in
             1993 by African governments, African private and institutional

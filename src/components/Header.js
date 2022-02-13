@@ -62,9 +62,9 @@ const Header = () => {
           <li>
             <Link to="/apply">APPLY NOW</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/contact">CONTACT</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="bg-transparent">

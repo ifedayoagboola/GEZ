@@ -39,7 +39,7 @@ const Pricing = () => {
         </div>
       </section>
       <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base ">
-        <p className="container mx-auto pl-32 py-6">
+        <p className="container mx-auto py-6 text-center">
           Designed to provide a “plug and play” facility for Micro, Small and
           Medium Enterprises (MSMEs) to enable them to operate competitively.
         </p>
@@ -49,10 +49,10 @@ const Pricing = () => {
           <div className="flex">
             <Link to="#">
               <div className="relative border-r-4 border-b-4 border-gray-200">
-                <img src={zone1} alt="" height={500} width={500} />
-                <div className="absolute inset-0 hover:bg-lime-500 text-white">
-                  <h1 className="text-5xl text-center py-8 font-bold">
-                    Zone-A
+                <img src={zone1} alt="" className="blur-sm" height={500} width={500} />
+                <div className="absolute inset-0 hover:bg-green-500/50 text-white">
+                  <h1 className="text-5xl text-center py-16 font-bold">
+                    Zone-1
                   </h1>
                   <div className="flex justify-evenly">
                     <span className="text-xl">PRICE: 35 USD per sqm</span>
@@ -62,10 +62,10 @@ const Pricing = () => {
             </Link>
             <Link to="#">
               <div className="relative border-l-4 border-b-4 border-gray-200">
-                <img src={zone4} alt="" height={500} width={500} />
-                <div className="absolute inset-0 hover:bg-lime-500 text-white">
-                  <h1 className="text-5xl text-center py-8 font-bold">
-                    ZONE-B
+                <img src={zone4} className="blur-sm" alt="" height={500} width={500} />
+                <div className="absolute inset-0 hover:bg-green-500/50 text-white">
+                  <h1 className="text-5xl text-center py-16 font-bold">
+                    ZONE-2
                   </h1>
                   <div className="flex justify-evenly">
                     <span className="text-xl">Price: 31 USD per sqm</span>
@@ -77,10 +77,10 @@ const Pricing = () => {
           <div className="flex">
             <Link to="#">
               <div className="relative border-r-4 border-t-4 border-gray-200">
-                <img src={zone3} alt="" height={500} width={500} />
-                <div className="absolute inset-0 hover:bg-lime-500 text-white">
-                  <h1 className="text-5xl text-center py-8 font-bold">
-                    ZONE-C
+                <img src={zone3} alt="" className="blur-sm" height={500} width={500} />
+                <div className="absolute inset-0 hover:bg-green-500/50 text-white">
+                  <h1 className="text-5xl text-center py-16 font-bold">
+                    ZONE-3
                   </h1>
                   <div className="flex justify-evenly">
                     <span className="text-xl">Price: 26 USD per sqm</span>
@@ -90,10 +90,10 @@ const Pricing = () => {
             </Link>
             <Link to="#">
               <div className="relative border-l-4 border-t-4 border-gray-200">
-                <img src={zone2} alt="" height={500} width={500} />
-                <div className="absolute inset-0 hover:bg-lime-500 text-white">
-                  <h1 className="text-5xl text-center py-8 font-bold">
-                    ZONE-D
+                <img src={zone2} alt="" className="blur-sm" height={500} width={500} />
+                <div className="absolute inset-0 hover:bg-green-500/50 text-white">
+                  <h1 className="text-5xl text-center  py-16 font-bold">
+                    ZONE-4
                   </h1>
                   <div className="flex justify-evenly">
                     <span className="text-xl">Price: 21 USD per sqm</span>
@@ -110,7 +110,7 @@ const Pricing = () => {
             className="w-full lg:w-1/2 h-screen"
             style={{ background: "#EBEBEB", color: "#000" }}
           >
-            <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
+            <div className="container mx-auto px-8 lg:p-20 py-8 my-14 text-justify">
               <p className="text-2xl font-semibold py-8 text-gray-700">
                 PAYMENT PLAN
                 <span className="text-green-600 font-bold">/</span>
@@ -120,32 +120,34 @@ const Pricing = () => {
                 Zone, Kaduna.
               </p>
               <br />
+              <ul className="font-light text-gray-700 bullets py-2 text-sm list-outside text-justify" style={{ marginLeft: '1rem' }}>
+                <li
+                  className="p-1"
 
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                1. One-off full payment.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                2. Bi-annual payment of 50% of the total price.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                3. 4-year installmental payments of 25% of the total price.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                4. C of O is issued and deposited with the bank and will be
-                handed over to the anchor tenant on completion of payment.
-              </p>
+                >
+                  One-off full payment.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Bi-annual payment of 50% of the total price.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  4-year installmental payments of 25% of the total price.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  C of O is issued and deposited with the bank and will be
+                  handed over to the anchor tenant on completion of payment.
+                </li>
+              </ul>
+
               {/* <p className='cursor-pointer text-green-600 text-base font-semibold py-8'>
 								LEARN MORE...
 							</p> */}
@@ -182,88 +184,86 @@ const Pricing = () => {
                 amenities:
               </p>
               <br />
+              <ul className="font-light text-gray-700 bullets py-2 text-sm list-outside text-justify" style={{ marginLeft: '1rem' }}>
+                <li
+                  className="p-1"
 
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                1. Fibre Optics.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                2. Solar street lights.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                3. Paved walkways and breathtaking landscaped green areas.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                4. 3000metric tons of water supply from Kangimi dam.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                5. Firefighters and Fire station.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                6. Ultra-modern specialist hospital.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                7. Central Research and Laboratory.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                8. Warehouses.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                9. 24hrs CCTV surveillance.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                10. Skills development centers and administration blocks.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                11. Environmental Cleaning and Annual Fumigation.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                12. Domestic & Industrial Waste Including Evacuation.
-              </p>
-              <p
-                className="font-light text-gray-700"
-                style={{ borderRight: "2px solid green" }}
-              >
-                13. Water Treatment System Sewage System.
-              </p>
-              {/* <p className='cursor-pointer text-green-600 text-base font-semibold py-8'>
-								LEARN MORE...
-							</p> */}
+                >
+                  Fibre Optics.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Solar street lights.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Paved walkways and breathtaking landscaped green areas.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  3000metric tons of water supply from Kangimi dam.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Firefighters and Fire station.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Ultra-modern specialist hospital.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Central Research and Laboratory.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Warehouses.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  24hrs CCTV surveillance.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  1Skills development centers and administration blocks.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Environmental Cleaning and Annual Fumigation.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Domestic & Industrial Waste Including Evacuation.
+                </li>
+                <li
+                  className="p-1"
+
+                >
+                  Water Treatment System Sewage System.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

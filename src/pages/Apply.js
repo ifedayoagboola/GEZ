@@ -26,7 +26,7 @@ const Apply = () => {
             backgroundImage: "url(/assets/art3.jpg)",
           }}
         >
-          <div className="text-white text-left text-3xl lg:text-4xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
+          <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
             APPLY NOW
             <span className="text-green-600 font-bold">/</span>
           </div>
@@ -37,7 +37,7 @@ const Apply = () => {
           className="w-full lg:w-1/2 h-screen"
           style={{ background: "#EBEBEB", color: "#000" }}
         >
-          <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
+          <div className="container text-xl mx-auto px-8 lg:p-20 py-8 my-14">
             <p className="text-2xl font-semibold py-8 text-gray-700">
               SEE CONTACT DETAILS BELOW
             </p>
@@ -47,22 +47,26 @@ const Apply = () => {
               className="font-light text-gray-700 py-2"
 
             >
-              <span className="text-green-600 font-bold">HEAD OFFICE:&nbsp;</span>
+              <img src="/assets/location.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className=" font-bold">HEAD OFFICE:&nbsp;</span>
               319 Off Ahmadu Bello way, Kado, Abuja, Nigeria
+
             </p>
 
             <p
               className="font-light text-gray-700 py-2"
 
             >
-              <span className="text-green-600 font-bold">KADUNA OFFICE:&nbsp;</span>
+              <img src="/assets/location.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className=" font-bold">KADUNA OFFICE:&nbsp;</span>
               JJ5/4 Paul Achimigu, Malali, Kaduna
             </p>
             <p
               className="font-light text-gray-700 py-2"
 
             >
-              <span className="text-green-600 font-bold">
+              <img src="/assets/phone.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className=" font-bold">
                 Office Main Line:&nbsp;
               </span>
               + 234 (09) 2920102
@@ -72,21 +76,24 @@ const Apply = () => {
 
             >
               {" "}
-              <span className="text-green-600 font-bold">Telephone:&nbsp;</span>
+              <img src="/assets/phone.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className=" font-bold">Telephone:&nbsp;</span>
               +234 802 555 5187, +234 809 999 8611, +234 816 666 3032
             </p>
             <p
               className="font-light text-gray-700 py-2"
 
             >
-              <span className="text-green-600 font-bold">Email:&nbsp;</span>
+              <img src="/assets/email.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className=" font-bold">Email:&nbsp;</span>
               info@kkkingdom.com | info@gez.com.ng
             </p>
             <p
               className="font-light text-gray-700 py-2"
 
             >
-              <span className="text-green-600 font-bold">Website:&nbsp;</span>
+              <img src="/assets/website.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className=" font-bold">Website:&nbsp;</span>
               www.kkkingdom.com | www.gez.com.ng
             </p>
 
@@ -101,7 +108,7 @@ const Apply = () => {
         //   backgroundImage: "url(/assets/aboutbg4.jpg)",
         // }}
         >
-          <div className="text-black w-full mt-20 mx-auto px-8 ">
+          <div className="container mx-auto px-8 lg:p-20 py-8 my-14 ">
             <p className="text-2xl font-semibold py-8 text-gray-700">
               EXPRESSION OF INTEREST FORM
             </p>
