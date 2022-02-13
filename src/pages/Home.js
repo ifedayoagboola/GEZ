@@ -46,10 +46,6 @@ const Home = () => {
 
     document.getElementById('zone' + id).style.display = 'block';
   }
-  // Similar to componentDidMount and componentDidUpdate:
-  useEffect(() => {
-
-  });
 
   const zones = [
     {
@@ -143,7 +139,7 @@ const Home = () => {
 
         </div>
       </section>
-      <section className="">
+      <section style={{ background: "#dddddd" }} className="mb-16">
         <div className="px-4 lg:px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
             CLUSTERS AND LAYOUTS
@@ -162,7 +158,7 @@ const Home = () => {
                     {/* <Link to={`/news/${article.id}`}> */}
                     <div style={{ background: "#fff" }}>
 
-                      <div id={article.id} className="p-3 hover:bg-green-700 hover:text-white transition duration-300 ease-in">
+                      <div id={article.id} className="p-3 hover:bg-green-700 round-lg hover:text-white transition duration-300 ease-in">
                         {/* <div>
                           <img
 
@@ -192,7 +188,7 @@ const Home = () => {
             {/* READ MORE NEWS... */}
           </p>
         </div>
-        <div className="container mx-auto" style={{ padding: '50px' }} >
+        <div className="container mx-auto" >
 
           <img
             id="zone1"
