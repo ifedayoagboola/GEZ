@@ -71,7 +71,7 @@ const Header = () => {
         <div className=" px-16 flex justify-between  py-2 lg:space-x-4 text-white">
           <Link
             to="/"
-            className="w-16 h-16 flex gap-1 justify-center items-center ml-8"
+            className="w-16 h-16 flex gap-1 justify-center items-center ml-16"
           // style={{ marginLeft: '215px' }}
           >
             <img className=" w-full" src={logo} alt="" />

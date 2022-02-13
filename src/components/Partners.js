@@ -23,7 +23,7 @@ const Partners = () => {
           {navbar ? <StickyHeader /> : <Header />}
         </div>
         <div
-          className="w-full h-screen bg-no-repeat bg-cover bg-bottom flex flex-col justify-center items-left"
+          className="w-full h-screen bg-no-repeat bg-cover bg-top flex flex-col justify-center items-left"
           style={{
             backgroundImage: "url(/assets/partners1.jpg)",
           }}

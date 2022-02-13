@@ -36,9 +36,7 @@ const Kaduna = () => {
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
             WHY INVEST IN KADUNA <br />
-            <p className="text-base text-white pt-5 font-semibold">
-              ABOUT KADIPA
-            </p>
+
           </div>
         </div>
       </section>

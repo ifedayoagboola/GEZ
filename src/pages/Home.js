@@ -7,20 +7,27 @@ import Header from "../components/Header";
 import NewsCard from "../components/NewsCard";
 import StickyHeader from "../components/StickyHeader";
 
-import infograph from "../img/zone11.png"
-import zone1 from "../img/zone1.png"
-import zone2 from "../img/zone2.png"
-import zone3 from "../img/zone3.png"
-import zone4 from "../img/zone4.png"
+import infograph from "../img/zone11.png";
+import zone1 from "../img/zone1.png";
+import zone2 from "../img/zone2.png";
+import zone3 from "../img/zone3.png";
+import zone4 from "../img/zone4.png";
 
-import zone11 from "../img/zone11.png"
-import zone21 from "../img/zone21.png"
-import zone31 from "../img/zone31.png"
-import zone41 from "../img/zone41.png"
+import zone11 from "../img/zone11.png";
+import zone21 from "../img/zone21.png";
+import zone31 from "../img/zone31.png";
+import zone41 from "../img/zone41.png";
+
+// import { Slide } from 'react-slideshow-image';
+// import 'react-slideshow-image/dist/styles.css'
+
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 
 import articles from "../MediaData";
 import { useEffect } from "react/cjs/react.development";
+import $ from 'jquery';
 
 const Home = () => {
   const [navbar, setNavbar] = useState(false);
@@ -36,16 +43,39 @@ const Home = () => {
   const [image, setImage] = useState(zone11);
 
 
-  function setImagehandler(id) {
-    console.log(id)
+  const slideImages = [
+    {
+      url: '/assets/bg2.png',
+      caption: 'Slide 1'
+    },
+    {
+      url: 'assets/slide2.jpg',
+      caption: 'Slide 2'
+    },
+    {
+      url: 'assets/slide3.jpg',
+      caption: 'Slide 3'
+    },
+    {
+      url: 'assets/slide4.jpg',
+      caption: 'Slide 3'
+    },
+  ];
 
-    var all = document.getElementsByClassName('zoneI');
-    for (var i = 0; i < all.length; i++) {
-      all[i].style.display = 'none';
-    }
+  useEffect(() => {
 
-    document.getElementById('zone' + id).style.display = 'block';
-  }
+    $(".zoneButton").on("mouseover", function (e) {
+      console.log(e.target)
+      let id = e.target.id;
+      console.log("ID IS: ", id);
+      $('.zoneI').hide();
+
+      $('#zone' + id).show();
+
+    });
+
+  })
+
 
   const zones = [
     {
@@ -73,6 +103,34 @@ const Home = () => {
       mainImg: zone41
     },
   ];
+  // const Slideshow = () => {
+  //   return (
+  //     <div className="slide-container">
+  //       <Slide autoplay={false}>
+  //         {slideImages.map((slideImage, index) => (
+  //           <span className="each-slide" key={index}>
+  //             <div className="fixed w-full">
+  //             {navbar ? <StickyHeader /> : <Header />}
+  //             </div>
+  //             <div
+  //               className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
+  //               style={{ 'backgroundImage': `url(${slideImage.url})` }}>
+  //               <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto  leading-tight mt-auto py-12">
+  //                 THE <span className="text-green-600">GREEN</span> <br />
+  //                 ECONOMIC ZONE
+  //                 <p className="text-base text-white pt-5 font-semibold">
+  //                   The Kaduna State government and KK Kingdom Nigeria Limited entered
+  //                   <br /> into a public private partnership to develop the green
+  //                   economic zone.
+  //                 </p>
+  //               </div>
+  //             </div>
+  //           </span>
+  //         ))}
+  //       </Slide>
+  //     </div>
+  //   )
+  // }
 
   return (
     <div>
@@ -96,6 +154,7 @@ const Home = () => {
             </p>
           </div>
         </div>
+
       </section>
       <section className="">
         <div className="text-xl lg:text-2xl flex flex-col lg:flex-row h-full w-full items-center lg:items-start p-8 ">
@@ -105,8 +164,8 @@ const Home = () => {
               THE GREEN ECONOMIC ZONE
               <span className="text-green-600 font-bold">/</span>
             </p>
-            <p className="font-light text-gray-700 text-justify">
-              “<span className="text-green-600">Green</span> The FUTURE is
+            <p className="font-light text-gray-700 ">
+              “<span className="text-green-600">Green</span>” The FUTURE is
               here for today. A phenomenal green economic zone powered by the
               Kaduna State Government in partnership with KK Kingdom an
               indigenous construction company based in FCT, Abuja, Nigeria.
@@ -119,12 +178,12 @@ const Home = () => {
               </p> */}
 
           </div>
-          <div className="flex-col container mx-auto px-8 lg:p-20 py-8 border-4 border-white lg:border-l-green-600 ">
+          <div className="flex-col container mx-auto px-8 lg:p-20 py-8 border-2 border-white lg:border-l-green-600 ">
             <p className="text-2xl font-semibold py-8 text-gray-700">
               GEZ-THE PROJECT
               <span className="text-green-600 font-bold">/</span>
             </p>
-            <p className="font-light text-justify">
+            <p className="font-light ">
               The Green Economic Zone (GEZ) is a N15bn Public/Private
               partnership investment that will provide critical
               infrastructures to enable firms setup manufacturing plants
@@ -145,79 +204,53 @@ const Home = () => {
             CLUSTERS AND LAYOUTS
             <span className="text-green-600 font-bold">/</span>
           </p>
-          <div className="flex flex-col lg:flex-row gap-4 items-center">
+          <div className="flex flex-col lg:flex-row gap-4 items-center mt-4">
             {zones.map((article) => {
               return (
-                <div className=" sm:w-full md:w-1/2 lg:w-1/4"
-                  onMouseEnter={(e) => {
-                    let id = e.target.id;
-                    setImagehandler(id)
-
-                  }}>
-                  <div className="h-full overflow-hidden">
-                    {/* <Link to={`/news/${article.id}`}> */}
-                    <div style={{ background: "#fff" }}>
-
-                      <div id={article.id} className="p-3 hover:bg-green-700 round-lg hover:text-white transition duration-300 ease-in">
-                        {/* <div>
-                          <img
-
-                            className="lg:h-72 md:h-48 w-full object-cover object-center"
-                            src={article.img}
-                            alt=""
-                          />
-                        </div> */}
-                        <div className="py-6 ">
-
-                          <p className="text-lg font-semibold mb-3 text-center">{article.title}</p>
-
-                        </div>
-                      </div>
-                    </div>
-                    {/* </Link> */}
-                  </div>
-                </div>
+                <button id={article.id} className="zoneButton w-1/4 mx-16  p-8 bg-transparent hover:bg-green-700 text-green-700 font-semibold hover:text-white border border-green-700 hover:border-transparent rounded">
+                  {article.title}
+                </button>
               );
             })}
           </div>
           {/* testtttt */}
 
 
-          {/* testtggg */}
-          <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
-            {/* READ MORE NEWS... */}
-          </p>
+
         </div>
-        <div className="container mx-auto" >
+        <div className="container mx-auto pb-8" style={{ width: '67%' }} >
 
           <img
             id="zone1"
-            // style={{ height: '600px' }}
-            className=" zoneI"
+            // style={{ display: 'none' }}
+            className="zoneI"
             src={zone11}
             alt=""
           />
           <img
             id="zone2"
-            // style={{ height: '600px' }}
-            className="hidden zoneI"
+            style={{ display: 'none' }}
+            className="zoneI"
             src={zone21}
             alt=""
           />
           <img
             id="zone3"
-            // style={{ height: '400px' }}
-            className="hidden zoneI"
+            style={{ display: 'none' }}
+            className="zoneI"
             src={zone31}
             alt=""
           />
           <img
             id="zone4"
-            // style={{ height: '400px' }}
-            className="hidden zoneI"
+            style={{ display: 'none' }}
+            className="zoneI"
             src={zone41}
             alt=""
           />
+          <p style={{ height: 50 }}>
+
+          </p>
         </div>
       </section>
       <section className="">

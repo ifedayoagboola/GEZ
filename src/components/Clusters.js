@@ -1,10 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import StickyHeader from "../components/StickyHeader";
 import map from "../img/gez-zones.jpeg";
 import NewsCard from "./NewsCard";
 import articles from "../MediaData";
+
+import $ from 'jquery';
+
+import zone1 from "../img/zone1.png"
+import zone2 from "../img/zone2.png"
+import zone3 from "../img/zone3.png"
+import zone4 from "../img/zone4.png"
+
+import zone11 from "../img/zone11.png"
+import zone21 from "../img/zone21.png"
+import zone31 from "../img/zone31.png"
+import zone41 from "../img/zone41.png"
 
 const Clusters = () => {
   const [navbar, setNavbar] = useState(false);
@@ -16,6 +28,47 @@ const Clusters = () => {
     }
   };
   window.addEventListener("scroll", navHandler);
+
+  useEffect(() => {
+
+    $(".zoneButton").on("mouseover", function (e) {
+      console.log(e.target)
+      let id = e.target.id;
+      console.log("ID IS: ", id);
+      $('.zoneI').hide();
+
+      $('#zone' + id).show();
+
+    });
+
+  })
+  const zones = [
+    {
+      id: "1",
+      title: "ZONE 1",
+      img: zone1,
+      mainImg: zone11
+    },
+    {
+      id: "2",
+      title: "ZONE 2",
+      img: zone2,
+      mainImg: zone21
+    },
+    {
+      id: "3",
+      title: "ZONE 3",
+      img: zone3,
+      mainImg: zone31
+    },
+    {
+      id: "4",
+      title: "ZONE 4",
+      img: zone4,
+      mainImg: zone41
+    },
+  ];
+
   return (
     <div className="">
       <section>
@@ -51,17 +104,58 @@ const Clusters = () => {
       <section className="">
         <div className="px-4 lg:px-20">
           <p className="text-2xl font-semibold py-8 text-gray-700">
-            CLUSTERS AND LAYOUT
+            CLUSTERS AND LAYOUTS
             <span className="text-green-600 font-bold">/</span>
           </p>
-          <div className="flex flex-col lg:flex-row gap-4 items-center">
+          <div className="flex flex-col lg:flex-row gap-4 items-center mt-4">
+            {zones.map((article) => {
+              return (
+                <button id={article.id} className="zoneButton w-1/4 mx-16  p-8 bg-transparent hover:bg-green-700 text-green-700 font-semibold hover:text-white border border-green-700 hover:border-transparent rounded">
+                  {article.title}
+                </button>
+              );
+            })}
+          </div>
+          {/* <div className="flex flex-col lg:flex-row gap-4 items-center">
             {articles.map((article) => {
               return <NewsCard key={article.id} article={article} />;
             })}
-          </div>
-          {/* <p className='cursor-pointer text-green-600 text-base font-semibold py-8'>
-						READ MORE NEWS...
-					</p> */}
+          </div> */}
+
+        </div>
+        <div className="container mx-auto pb-8" style={{ width: '67%' }} >
+
+          <img
+            id="zone1"
+            // style={{ display: 'none' }}
+            className="zoneI"
+            src={zone11}
+            alt=""
+          />
+          <img
+            id="zone2"
+            style={{ display: 'none' }}
+            className="zoneI"
+            src={zone21}
+            alt=""
+          />
+          <img
+            id="zone3"
+            style={{ display: 'none' }}
+            className="zoneI"
+            src={zone31}
+            alt=""
+          />
+          <img
+            id="zone4"
+            style={{ display: 'none' }}
+            className="zoneI"
+            src={zone41}
+            alt=""
+          />
+          <p style={{ height: 50 }}>
+
+          </p>
         </div>
       </section>
 

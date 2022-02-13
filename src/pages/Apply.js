@@ -37,64 +37,64 @@ const Apply = () => {
           className="w-full lg:w-1/2 h-screen"
           style={{ background: "#EBEBEB", color: "#000" }}
         >
-          <div className="container text-xl mx-auto px-8 lg:p-20 py-8 my-14">
+          <div className="container text-l mx-auto px-8 lg:p-20 py-8 my-14">
             <p className="text-2xl font-semibold py-8 text-gray-700">
               SEE CONTACT DETAILS BELOW
             </p>
             <br />
 
             <p
-              className="font-light text-gray-700 py-2"
+              className=" text-gray-700 py-2 text-center"
 
             >
-              <img src="/assets/location.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
-              <span className=" font-bold">HEAD OFFICE:&nbsp;</span>
+              <img alt="" src="/assets/location.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className="font-bold text-xl ">HEAD OFFICE:&nbsp;</span><br />
               319 Off Ahmadu Bello way, Kado, Abuja, Nigeria
 
             </p>
 
             <p
-              className="font-light text-gray-700 py-2"
+              className=" text-gray-700 py-2 text-center"
 
             >
-              <img src="/assets/location.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
-              <span className=" font-bold">KADUNA OFFICE:&nbsp;</span>
+              <img alt="" src="/assets/location.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className="text-xl  font-bold">KADUNA OFFICE:&nbsp;</span> <br />
               JJ5/4 Paul Achimigu, Malali, Kaduna
             </p>
             <p
-              className="font-light text-gray-700 py-2"
+              className=" text-gray-700 py-2 text-center"
 
             >
-              <img src="/assets/phone.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
-              <span className=" font-bold">
+              <img alt="" src="/assets/phone.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className="text-xl  font-bold">
                 Office Main Line:&nbsp;
-              </span>
+              </span><br />
               + 234 (09) 2920102
             </p>
             <p
-              className="font-light text-gray-700 py-2"
+              className=" text-gray-700 py-2 text-center"
 
             >
-              {" "}
-              <img src="/assets/phone.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
-              <span className=" font-bold">Telephone:&nbsp;</span>
+
+              <img alt="" src="/assets/phone.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className="text-xl  font-bold">Telephone:&nbsp;</span><br />
               +234 802 555 5187, +234 809 999 8611, +234 816 666 3032
             </p>
             <p
-              className="font-light text-gray-700 py-2"
+              className=" text-gray-700 py-2 text-center"
 
             >
-              <img src="/assets/email.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
-              <span className=" font-bold">Email:&nbsp;</span>
-              info@kkkingdom.com | info@gez.com.ng
+              <img alt="" src="/assets/email.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className="text-xl  font-bold">Email:&nbsp;</span> <br />
+              info@gez.com.ng
             </p>
             <p
-              className="font-light text-gray-700 py-2"
+              className=" text-gray-700 py-2 text-center"
 
             >
-              <img src="/assets/website.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
-              <span className=" font-bold">Website:&nbsp;</span>
-              www.kkkingdom.com | www.gez.com.ng
+              <img alt="" src="/assets/website.png" style={{ width: "24px", height: "24px", display: "inline", marginRight: 10 }} />
+              <span className="text-xl  font-bold">Website:&nbsp;</span> <br />
+              www.gez.com.ng
             </p>
 
             {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">

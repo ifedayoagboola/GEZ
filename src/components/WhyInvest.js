@@ -22,7 +22,7 @@ const WhyInvest = () => {
         <div
           className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
           style={{
-            backgroundImage: "url(/assets/art3.jpg)",
+            backgroundImage: "url(/assets/art5.jpg)",
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
@@ -53,19 +53,19 @@ const WhyInvest = () => {
             Kingdom an indigenous construction company based in FCT, Abuja,
             Nigeria.
           </p> */}
-            <ul className="font-light text-gray-700 bullets list-outside text-justify">
+            <ul className="font-light space text-gray-700 list-outside text-justify">
               <li
                 className="p-1"
 
               >
-                COMPLETE TAX HOLIDAY from all Federal State and Local
+                <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> COMPLETE TAX HOLIDAY from all Federal State and Local
                 Government taxes, rates and levies.
               </li>
               <li
                 className="p-1"
 
               >
-                DUTY FREE IMPORTATION on capital goods, machinery and
+                <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> DUTY FREE IMPORTATION on capital goods, machinery and
                 components, spare parts, raw materials and consumable items into
                 the zone.
               </li>
@@ -73,20 +73,20 @@ const WhyInvest = () => {
 
                 className="p-1"
               >
-                FOREIGN OWNERSHP 100% ownership of investments.
+                <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> FOREIGN OWNERSHP 100% ownership of investments.
               </li>
               <li
 
                 className="p-1"
               >
-                REPATRATION OF PROFITS and dividends earned by foreign
+                <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> REPATRATION OF PROFITS and dividends earned by foreign
                 investors in the zone.
               </li>
               <li
                 className="p-1"
 
               >
-                REPATRIATION OF CAPITAL 100% Repatriation of capital
+                <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> REPATRIATION OF CAPITAL 100% Repatriation of capital
                 investments in the zone at any time with capital appreciation of
                 the investment.
               </li>
@@ -94,14 +94,14 @@ const WhyInvest = () => {
 
                 className="p-1"
               >
-                EASE OF DOING BUSINESS one stop for approval, permits,
+                <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> EASE OF DOING BUSINESS one stop for approval, permits,
                 operating license, incorporation papers.
               </li>
               <li
                 className="p-1"
 
               >
-                IMMIGRATION WAIVERS. There would be no expatriate quota for
+                <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> IMMIGRATION WAIVERS. There would be no expatriate quota for
                 managers working in the zone.
               </li>
             </ul>

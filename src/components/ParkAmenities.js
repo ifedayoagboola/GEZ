@@ -31,100 +31,109 @@ const ParkAmenities = () => {
         </div>
       </section>
       <section className="">
-        <div className="text-base flex flex-col lg:flex-row w-full items-center lg:items-start mb-10">
-          <div className="w-full lg:w-1/2 h-screen flex-col" style={{ background: "#EBEBEB", color: "#000" }}>
-            <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
-              <p className="text-2xl font-light py-4 mt-8 text-gray-700">
-                The industrial park, is served with top notch infrastructures and
+        <div className="text-base flex flex-col lg:flex-row h-full lg:h-screen w-full items-center lg:items-start ">
+
+          <div
+            className="w-full lg:w-1/2 h-screen"
+            style={{ background: "#EBEBEB", color: "#000" }}
+          >
+            <div className="container mx-auto px-8 lg:p-20 py-8 my-8">
+              <p className="text-2xl font-semibold pb-4 text-gray-700">
+                AMENITIES
+                <span className="text-green-600 font-bold">/</span>
+              </p>
+              <p className="text-xl font-semibold text-gray-700">
+                The industrial park is served with top-notch infrastructures and
                 amenities:
-                {/* <span className="text-green-600 font-bold">/</span> */}
               </p>
               <br />
-              <ul className="font-light text-gray-700 bullets text-lg list-outside text-justify" style={{ marginLeft: '1rem' }}>
+              <ul className="font-light text-gray-700  py-2 text-lg list-outside text-justify" style={{ marginLeft: '1rem' }}>
                 <li
                   className="p-1"
 
                 >
-                  Fibre Optics.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Fibre Optics.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Solar street lights.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Solar street lights.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Paved walkways and breathtaking landscaped green areas.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Paved walkways and breathtaking landscaped green areas.
+                </li>
+                <li
+                  className="p-1"
+
+                > <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> 3000metric tons of water supply from Kangimi dam.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  3000metric tons of water supply from Kangimi dam.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Firefighters and Fire station.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Firefighters and Fire station.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Ultra-modern specialist hospital.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Ultra-modern specialist hospital.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Central Research and Laboratory.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Central Research and Laboratory.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Warehouses.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Warehouses.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> 24hrs CCTV surveillance.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  24hrs CCTV surveillance.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Skills development centers and administration blocks.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  1Skills development centers and administration blocks.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Environmental Cleaning and Annual Fumigation.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Environmental Cleaning and Annual Fumigation.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Domestic & Industrial Waste Including Evacuation.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  Domestic & Industrial Waste Including Evacuation.
-                </li>
-                <li
-                  className="p-1"
-
-                >
-                  Water Treatment System Sewage System.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Water Treatment System Sewage System.
                 </li>
               </ul>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover p-16 pt-32 flex-col" >
-            <img src="/assets/infrastructure.jpg" className=" mt-16" />
-          </div>
+          <div
+            className="w-full lg:w-1/2 h-screen bg-no-repeat bg-contain m-16 mt-32"
+            style={{
+              backgroundImage: "url(/assets/infrastructure.jpg)",
+            }}
+          ></div>
         </div>
       </section>
 

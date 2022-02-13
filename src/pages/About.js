@@ -128,39 +128,39 @@ const About = () => {
                 <img className="w-full h-full" src={values} alt="" />
               </div>
               <div className="font-normal text-gray-700 text-lg">
-                <ul className="bullets py-2 text-sm list-outside text-justify">
+                <ul className=" py-2 text-sm list-outside text-justify">
 
                   <span className="text-2xl font-semibold mb-1 p-1">
                     THE <span className="text-green-600">GREEN</span> ECONOMIC
                     ZONE AT A GLANCE
                   </span>
                   <li className="p-1">
-                    It is a N15bn Industrial Park that will provide critical
+                    <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> It is a N15bn Industrial Park that will provide critical
                     infrastructure to enable firms set up manufacturing plants
                     within the industrial park.
                   </li>
                   <li className="p-1">
-                    It is a Public Private Partnership between the Kaduna State
+                    <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> It is a Public Private Partnership between the Kaduna State
                     Government and KK Kingdom Ltd.
                   </li>
                   <li className="p-1">
-                    It is one of the two industrial parks designed by the Nasir
+                    <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> It is one of the two industrial parks designed by the Nasir
                     El-Rufai administration.
                   </li>
 
                   <li className="p-1">
-                    It is a 717 Hectares Land located on the Kaduna –Jos Road.
+                    <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> It is a 717 Hectares Land located on the Kaduna –Jos Road.
                   </li>
                   <li className="p-1">
-                    Designed to provide a safe, secure and eco-friendly
+                    <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Designed to provide a safe, secure and eco-friendly
                     environment for firms in the light manufacturing sector.
                   </li>
                   <li className="p-1">
-                    The park is expected to provide jobs and boost the state's
+                    <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> The park is expected to provide jobs and boost the state's
                     internally Generated Revenue.
                   </li>
                   <li className="p-1 pb-4">
-                    Expected to be completed and commissioned within two years.
+                    <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> Expected to be completed and commissioned within two years.
                   </li>
 
                 </ul>
@@ -184,19 +184,19 @@ const About = () => {
               </p>
               <br />
 
-              <ul className="bullets font-light text-gray-700  list-outside text-justify">
+              <ul className="font-light text-gray-700  list-outside text-justify">
                 <li
                   className="p-1"
 
                 >
-                  COMPLETE TAX HOLIDAY from all Federal State and Local
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> COMPLETE TAX HOLIDAY from all Federal State and Local
                   Government taxes, rates and levies.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  DUTY FREE IMPORTATION on capital goods, machinery and
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> DUTY FREE IMPORTATION on capital goods, machinery and
                   components, spare parts, raw materials and consumable items into
                   the zone.
                 </li>
@@ -204,20 +204,20 @@ const About = () => {
                   className="p-1"
 
                 >
-                  FOREIGN OWNERSHP 100% ownership of investments.
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> FOREIGN OWNERSHP 100% ownership of investments.
                 </li>
                 <li
                   className="p-1"
 
                 >
-                  REPATRATION OF PROFITS and dividends earned by foreign
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> REPATRATION OF PROFITS and dividends earned by foreign
                   investors in the zone.
                 </li>
                 <li
 
                   className="p-1"
                 >
-                  REPATRIATION OF CAPITAL 100% Repatriation of capital
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> REPATRIATION OF CAPITAL 100% Repatriation of capital
                   investments in the zone at any time with capital appreciation of
                   the investment.
                 </li>
@@ -225,14 +225,14 @@ const About = () => {
                   className="p-1"
 
                 >
-                  EASE OF DOING BUSINESS one stop for approval, permits,
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> EASE OF DOING BUSINESS one stop for approval, permits,
                   operating license, incorporation papers.
                 </li>
                 <li
 
                   className="p-1"
                 >
-                  IMMIGRATION WAIVERS. There would be no expatriate quota for
+                  <img alt="" src="/assets/bullet.png" style={{ width: "24px", height: "24px", display: "inline", marginTop: '-4px' }} /> IMMIGRATION WAIVERS. There would be no expatriate quota for
                   managers working in the zone.
                 </li>
               </ul>

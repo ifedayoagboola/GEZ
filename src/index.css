@@ -43,6 +43,11 @@ code {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+.space li {
+  padding: 6px;
+  display: block;
+}
+
 
 /* * {
   margin: 0;
