@@ -210,17 +210,17 @@ const Header = () => {
 						<Link to='/incentives'>INCENTIVES</Link>
 					</li> */}
           <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
-            <Link to="/apply">HOW TO APPLY</Link>
+            <Link to="/apply">APPLY/TALK WITH AN EXPERT</Link>
           </li>
           {/* <li className='flex p-4 border-d-4 '>
 						<Link to='/t-and-c'>TERMS AND CONDITIONS</Link>
 					</li> */}
-          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
+          {/* <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/government-policy">GOVERNMENT POLICY</Link>
-          </li>
-          <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
+          </li> */}
+          {/* <li className="flex pt-4 border-d-4" style={{ height: 50 }}>
             <Link to="/contact">TALK WITH AN EXPERT</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div

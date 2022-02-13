@@ -42,15 +42,7 @@ const Contact = () => {
               SEE CONTACT DETAILS BELOW
             </p>
             <br />
-            {/* <p
-            className="font-normal text-gray-700 text-xl"
-            style={{ borderRight: "2px solid green" }}
-          >
-            The FUTURE is here for today. A phenomenal green economic zone
-            powered by the Kaduna State Government in partnership with KK
-            Kingdom an indigenous construction company based in FCT, Abuja,
-            Nigeria.
-          </p> */}
+
             <p
               className="font-light text-gray-700 py-2"
               style={{ borderRight: "2px solid green" }}
@@ -105,9 +97,9 @@ const Contact = () => {
         </div>
         <div
           className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover shadow-xl"
-          // style={{
-          //   backgroundImage: "url(/assets/aboutbg4.jpg)",
-          // }}
+        // style={{
+        //   backgroundImage: "url(/assets/aboutbg4.jpg)",
+        // }}
         >
           <div className="text-black w-full mt-20 mx-auto px-8 ">
             <p className="text-2xl font-semibold py-8 text-gray-700">

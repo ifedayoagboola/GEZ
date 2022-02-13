@@ -26,7 +26,7 @@ const WhyInvest = () => {
           }}
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
-            WHY GEZ <span className="text-green-600">?</span> <br />
+            WHY GEZ <br />
           </div>
         </div>
       </section>
@@ -46,66 +46,67 @@ const WhyInvest = () => {
             <br />
             {/* <p
             className="font-normal text-gray-700 text-xl"
-            style={{ borderRight: "2px solid green" }}
+            
           >
             The FUTURE is here for today. A phenomenal green economic zone
             powered by the Kaduna State Government in partnership with KK
             Kingdom an indigenous construction company based in FCT, Abuja,
             Nigeria.
           </p> */}
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              1. COMPLETE TAX HOLIDAY from all Federal State and Local
-              Government taxes, rates and levies.
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              2. DUTY FREE IMPORTATION on capital goods, machinery and
-              components, spare parts, raw materials and consumable items into
-              the zone.
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              3. FOREIGN OWNERSHP 100% ownership of investments.
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              4. REPATRATION OF PROFITS and dividends earned by foreign
-              investors in the zone.
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              5. REPATRIATION OF CAPITAL 100% Repatriation of capital
-              investments in the zone at any time with capital appreciation of
-              the investment.
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              6. EASE OF DOING BUSINESS one stop for approval, permits,
-              operating license, incorporation papers.
-            </p>
-            <p
-              className="font-light text-gray-700"
-              style={{ borderRight: "2px solid green" }}
-            >
-              7. IMMIGRATION WAIVERS. There would be no expatriate quota for
-              managers working in the zone.
-            </p>
-            {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
-            LEARN MORE...
-          </p> */}
+            <ul className="font-light text-gray-700 bullets list-outside text-justify">
+              <li
+                className="p-1"
+
+              >
+                COMPLETE TAX HOLIDAY from all Federal State and Local
+                Government taxes, rates and levies.
+              </li>
+              <li
+                className="p-1"
+
+              >
+                DUTY FREE IMPORTATION on capital goods, machinery and
+                components, spare parts, raw materials and consumable items into
+                the zone.
+              </li>
+              <li
+
+                className="p-1"
+              >
+                FOREIGN OWNERSHP 100% ownership of investments.
+              </li>
+              <li
+
+                className="p-1"
+              >
+                REPATRATION OF PROFITS and dividends earned by foreign
+                investors in the zone.
+              </li>
+              <li
+                className="p-1"
+
+              >
+                REPATRIATION OF CAPITAL 100% Repatriation of capital
+                investments in the zone at any time with capital appreciation of
+                the investment.
+              </li>
+              <li
+
+                className="p-1"
+              >
+                EASE OF DOING BUSINESS one stop for approval, permits,
+                operating license, incorporation papers.
+              </li>
+              <li
+                className="p-1"
+
+              >
+                IMMIGRATION WAIVERS. There would be no expatriate quota for
+                managers working in the zone.
+              </li>
+            </ul>
+
+
           </div>
         </div>
         <div

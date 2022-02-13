@@ -43,8 +43,8 @@ const Clusters = () => {
         </p>
       </div>
       <section className="container mx-auto p-20">
-        <div className="w-full" style={{ height: "450px" }}>
-          <img className="w-full h-full" src={map} alt="" />
+        <div className="w-full mx-auto" >
+          <img className="mx-auto" style={{ height: 1000 }} src={map} alt="" />
         </div>
       </section>
 

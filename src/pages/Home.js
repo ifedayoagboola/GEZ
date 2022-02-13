@@ -100,7 +100,7 @@ const Home = () => {
       <section className="">
         <div className="text-xl lg:text-2xl flex flex-col lg:flex-row h-full w-full items-center lg:items-start p-8 ">
 
-          <div className="flex-col container mx-auto px-8 lg:p-20 h-full py-8  border-4 border-white lg:border-r-green-600  " >
+          <div className="flex-col container mx-auto px-8 lg:p-20 h-full py-8   " >
             <p className="text-2xl font-semibold py-8 text-gray-700">
               THE GREEN ECONOMIC ZONE
               <span className="text-green-600 font-bold">/</span>
@@ -119,7 +119,7 @@ const Home = () => {
               </p> */}
 
           </div>
-          <div className="flex-col container mx-auto px-8 lg:p-20 py-8 ">
+          <div className="flex-col container mx-auto px-8 lg:p-20 py-8 border-4 border-white lg:border-l-green-600 ">
             <p className="text-2xl font-semibold py-8 text-gray-700">
               GEZ-THE PROJECT
               <span className="text-green-600 font-bold">/</span>

@@ -207,9 +207,9 @@ const StickyHeader = () => {
           {/* <li className='flex p-2 '>
 						<Link to='/t-and-c'>TERMS AND CONDITIONS</Link>
 					</li> */}
-          <li className="flex p-2 ">
+          {/* <li className="flex p-2 ">
             <Link to="/government-policy">GOVERNMENT POLICY</Link>
-          </li>
+          </li> */}
           <li className="flex p-2 ">
             <Link to="/contact">TALK WITH AN EXPERT</Link>
           </li>

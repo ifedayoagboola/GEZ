@@ -39,18 +39,55 @@ const Apply = () => {
         >
           <div className="container mx-auto px-8 lg:p-20 py-8 my-14">
             <p className="text-2xl font-semibold py-8 text-gray-700">
-              A Modern, Sustainable and Innovative Business Park
+              SEE CONTACT DETAILS BELOW
             </p>
             <br />
+
             <p
-              className="font-normal text-gray-700 text-xl"
-              style={{ borderRight: "2px solid green" }}
+              className="font-light text-gray-700 py-2"
+
             >
-              GEZ as a “Special Area” will take advantage of the open green eco
-              system to promote the integration of local and international
-              businesses, optimized financial services, cutting-edge scientific
-              and technological research and development, cross-border trade
-              service and other functions.
+              <span className="text-green-600 font-bold">HEAD OFFICE:&nbsp;</span>
+              319 Off Ahmadu Bello way, Kado, Abuja, Nigeria
+            </p>
+
+            <p
+              className="font-light text-gray-700 py-2"
+
+            >
+              <span className="text-green-600 font-bold">KADUNA OFFICE:&nbsp;</span>
+              JJ5/4 Paul Achimigu, Malali, Kaduna
+            </p>
+            <p
+              className="font-light text-gray-700 py-2"
+
+            >
+              <span className="text-green-600 font-bold">
+                Office Main Line:&nbsp;
+              </span>
+              + 234 (09) 2920102
+            </p>
+            <p
+              className="font-light text-gray-700 py-2"
+
+            >
+              {" "}
+              <span className="text-green-600 font-bold">Telephone:&nbsp;</span>
+              +234 802 555 5187, +234 809 999 8611, +234 816 666 3032
+            </p>
+            <p
+              className="font-light text-gray-700 py-2"
+
+            >
+              <span className="text-green-600 font-bold">Email:&nbsp;</span>
+              info@kkkingdom.com | info@gez.com.ng
+            </p>
+            <p
+              className="font-light text-gray-700 py-2"
+
+            >
+              <span className="text-green-600 font-bold">Website:&nbsp;</span>
+              www.kkkingdom.com | www.gez.com.ng
             </p>
 
             {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
@@ -60,15 +97,15 @@ const Apply = () => {
         </div>
         <div
           className="w-full lg:w-1/2 h-screen bg-no-repeat bg-cover shadow-xl"
-          // style={{
-          //   backgroundImage: "url(/assets/aboutbg4.jpg)",
-          // }}
+        // style={{
+        //   backgroundImage: "url(/assets/aboutbg4.jpg)",
+        // }}
         >
           <div className="text-black w-full mt-20 mx-auto px-8 ">
             <p className="text-2xl font-semibold py-8 text-gray-700">
               EXPRESSION OF INTEREST FORM
             </p>
-            <p className="text-red-500 text-sm">
+            <p className="text-red-500 text-sm mb-4 ml-2 ">
               Please Go through the Checklist on our website and make sure you
               meet the criteria before submission.
             </p>
@@ -145,7 +182,7 @@ const Apply = () => {
                   placeholder="Address"
                 />
 
-                <Button text="submit" />
+                <Button text="Submit" />
               </form>
             </div>
           </div>

@@ -33,7 +33,7 @@ const About = () => {
         >
           <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto px-8 lg:px-16 leading-tight mt-auto py-12">
             ABOUT US <span className="text-green-600">/</span> <br />
-            <p className="text-base text-white pt-5 font-semibold">
+            <p className="text-base text-white pt-5 font-semibold mb-4">
               THE GREEN ECONOMIC ZONE AT A GLANCE
             </p>
           </div>
@@ -58,7 +58,7 @@ const About = () => {
               </p>
               <br />
               <p
-                className="font-normal text-gray-700 text-xl"
+                className="font-normal text-gray-700 text-xl mb-4 text-justify"
 
               >
                 The FUTURE is here for today. A phenomenal green economic zone
@@ -67,7 +67,7 @@ const About = () => {
                 Nigeria.
               </p>
               <p
-                className="font-light text-gray-700"
+                className="font-light text-gray-700 text-justify"
 
               >
                 GEZ is an industrial park designed to provide a “plug and play”
@@ -128,38 +128,43 @@ const About = () => {
                 <img className="w-full h-full" src={values} alt="" />
               </div>
               <div className="font-normal text-gray-700 text-lg">
-                <p className="text-2xl font-semibold">
-                  THE <span className="text-green-600">GREEN</span> ECONOMIC
-                  ZONE AT A GLANCE
-                </p>
-                <p className="py-2 text-sm">
-                  It is a N15bn Industrial Park that will provide critical
-                  infrastructure to enable firms set up manufacturing plants
-                  within the industrial park.
-                </p>
-                <p className="py-2 text-sm">
-                  It is a Public Private Partnership between the Kaduna State
-                  Government and KK Kingdom Ltd.
-                </p>
-                <p className="py-2 text-sm">
-                  It is one of the two industrial parks designed by the Nasir
-                  El-Rufai administration.
-                </p>
+                <ul className="bullets py-2 text-sm list-outside text-justify">
 
-                <p className="py-2 text-sm">
-                  It is a 717 Hectares Land located on the Kaduna –Jos Road.
-                </p>
-                <p className="py-2 text-sm">
-                  Designed to provide a safe, secure and eco-friendly
-                  environment for firms in the light manufacturing sector.
-                </p>
-                <p className="py-2 text-sm">
-                  The park is expected to provide jobs and boost the state's
-                  internally Generated Revenue.
-                </p>
-                <p className="py-2 text-sm">
-                  Expected to be completed and commissioned within two years.
-                </p>
+                  <span className="text-2xl font-semibold mb-1 p-1">
+                    THE <span className="text-green-600">GREEN</span> ECONOMIC
+                    ZONE AT A GLANCE
+                  </span>
+                  <li className="p-1">
+                    It is a N15bn Industrial Park that will provide critical
+                    infrastructure to enable firms set up manufacturing plants
+                    within the industrial park.
+                  </li>
+                  <li className="p-1">
+                    It is a Public Private Partnership between the Kaduna State
+                    Government and KK Kingdom Ltd.
+                  </li>
+                  <li className="p-1">
+                    It is one of the two industrial parks designed by the Nasir
+                    El-Rufai administration.
+                  </li>
+
+                  <li className="p-1">
+                    It is a 717 Hectares Land located on the Kaduna –Jos Road.
+                  </li>
+                  <li className="p-1">
+                    Designed to provide a safe, secure and eco-friendly
+                    environment for firms in the light manufacturing sector.
+                  </li>
+                  <li className="p-1">
+                    The park is expected to provide jobs and boost the state's
+                    internally Generated Revenue.
+                  </li>
+                  <li className="p-1 pb-4">
+                    Expected to be completed and commissioned within two years.
+                  </li>
+
+                </ul>
+
               </div>
             </div>
           </div>
@@ -178,68 +183,59 @@ const About = () => {
                 <span className="text-green-600 font-bold">/</span>
               </p>
               <br />
-              {/* <p
-            className="font-normal text-gray-700 text-xl"
-            
-          >
-            The FUTURE is here for today. A phenomenal green economic zone
-            powered by the Kaduna State Government in partnership with KK
-            Kingdom an indigenous construction company based in FCT, Abuja,
-            Nigeria.
-          </p> */}
-              <p
-                className="font-light text-gray-700"
 
-              >
-                1. COMPLETE TAX HOLIDAY from all Federal State and Local
-                Government taxes, rates and levies.
-              </p>
-              <p
-                className="font-light text-gray-700"
+              <ul className="bullets font-light text-gray-700  list-outside text-justify">
+                <li
+                  className="p-1"
 
-              >
-                2. DUTY FREE IMPORTATION on capital goods, machinery and
-                components, spare parts, raw materials and consumable items into
-                the zone.
-              </p>
-              <p
-                className="font-light text-gray-700"
+                >
+                  COMPLETE TAX HOLIDAY from all Federal State and Local
+                  Government taxes, rates and levies.
+                </li>
+                <li
+                  className="p-1"
 
-              >
-                3. FOREIGN OWNERSHP 100% ownership of investments.
-              </p>
-              <p
-                className="font-light text-gray-700"
+                >
+                  DUTY FREE IMPORTATION on capital goods, machinery and
+                  components, spare parts, raw materials and consumable items into
+                  the zone.
+                </li>
+                <li
+                  className="p-1"
 
-              >
-                4. REPATRATION OF PROFITS and dividends earned by foreign
-                investors in the zone.
-              </p>
-              <p
-                className="font-light text-gray-700"
+                >
+                  FOREIGN OWNERSHP 100% ownership of investments.
+                </li>
+                <li
+                  className="p-1"
 
-              >
-                5. REPATRIATION OF CAPITAL 100% Repatriation of capital
-                investments in the zone at any time with capital appreciation of
-                the investment.
-              </p>
-              <p
-                className="font-light text-gray-700"
+                >
+                  REPATRATION OF PROFITS and dividends earned by foreign
+                  investors in the zone.
+                </li>
+                <li
 
-              >
-                6. EASE OF DOING BUSINESS one stop for approval, permits,
-                operating license, incorporation papers.
-              </p>
-              <p
-                className="font-light text-gray-700"
+                  className="p-1"
+                >
+                  REPATRIATION OF CAPITAL 100% Repatriation of capital
+                  investments in the zone at any time with capital appreciation of
+                  the investment.
+                </li>
+                <li
+                  className="p-1"
 
-              >
-                7. IMMIGRATION WAIVERS. There would be no expatriate quota for
-                managers working in the zone.
-              </p>
-              {/* <p className="cursor-pointer text-green-600 text-base font-semibold py-8">
-            LEARN MORE...
-          </p> */}
+                >
+                  EASE OF DOING BUSINESS one stop for approval, permits,
+                  operating license, incorporation papers.
+                </li>
+                <li
+
+                  className="p-1"
+                >
+                  IMMIGRATION WAIVERS. There would be no expatriate quota for
+                  managers working in the zone.
+                </li>
+              </ul>
             </div>
           </div>
           <div

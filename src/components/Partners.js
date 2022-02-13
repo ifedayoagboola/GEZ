@@ -35,7 +35,7 @@ const Partners = () => {
       </section>
       <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base ">
         <p className="container mx-auto px-12 py-6">
-          <p className="text-base text-green-600 pt-5 font-semibold">
+          <p className="text-base text-green-600 pt-5 font-semibold mb-2">
             THE GREEN ECONOMIC ZONE AT A GLANCE
           </p>
           The Green Economic Zone is one of the innovative business projects
@@ -48,7 +48,7 @@ const Partners = () => {
         </p>
         <div className="bg-gray-200 font-normal text-gray-700 text-base lg:text-base">
           <p className="container mx-auto px-12 py-6">
-            <div className="text-green-600 font-bold">LEAD PARTNERS</div>
+            <div className="text-green-600 font-bold  mb-2">LEAD PARTNERS</div>
             KK KINGDOM NIGERIA LIMITED is a top notch indigenous construction
             company based in FCT, Abuja, Nigeria, with a track record of over
             ten years executing iconic projects under their belt. Our portfolio
@@ -64,7 +64,7 @@ const Partners = () => {
           </p>
 
           <p className="container mx-auto px-12 py-6">
-            <div className="text-green-600 font-bold">STRATEGIC PARTNERS</div>
+            <div className="text-green-600 font-bold  mb-2">STRATEGIC PARTNERS</div>
             AFREXIM BANK – The African Export-Import Bank was established in
             1993 by African governments, African private and institutional
             investors, and non-African financial institutions and private
