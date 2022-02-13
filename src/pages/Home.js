@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ClientsCarousel from "../components/ClientsCarousel";
 import Footer from "../components/Footer";
 
@@ -26,7 +26,7 @@ import 'react-awesome-slider/dist/styles.css';
 
 
 import articles from "../MediaData";
-import { useEffect } from "react/cjs/react.development";
+
 import $ from 'jquery';
 
 const Home = () => {
