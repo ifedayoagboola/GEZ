@@ -18,11 +18,11 @@ import zone21 from "../img/zone21.png";
 import zone31 from "../img/zone31.png";
 import zone41 from "../img/zone41.png";
 
-// import { Slide } from 'react-slideshow-image';
-// import 'react-slideshow-image/dist/styles.css'
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+// import AwesomeSlider from 'react-awesome-slider';
+// import 'react-awesome-slider/dist/styles.css';
 
 
 import articles from "../MediaData";
@@ -103,42 +103,44 @@ const Home = () => {
       mainImg: zone41
     },
   ];
-  // const Slideshow = () => {
-  //   return (
-  //     <div className="slide-container">
-  //       <Slide autoplay={false}>
-  //         {slideImages.map((slideImage, index) => (
-  //           <span className="each-slide" key={index}>
-  //             <div className="fixed w-full">
-  //             {navbar ? <StickyHeader /> : <Header />}
-  //             </div>
-  //             <div
-  //               className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
-  //               style={{ 'backgroundImage': `url(${slideImage.url})` }}>
-  //               <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto  leading-tight mt-auto py-12">
-  //                 THE <span className="text-green-600">GREEN</span> <br />
-  //                 ECONOMIC ZONE
-  //                 <p className="text-base text-white pt-5 font-semibold">
-  //                   The Kaduna State government and KK Kingdom Nigeria Limited entered
-  //                   <br /> into a public private partnership to develop the green
-  //                   economic zone.
-  //                 </p>
-  //               </div>
-  //             </div>
-  //           </span>
-  //         ))}
-  //       </Slide>
-  //     </div>
-  //   )
-  // }
+
+  const Slideshow = () => {
+    return (
+      <div className="slide-container">
+        <Slide autoplay={true}>
+          {slideImages.map((slideImage, index) => (
+            <span className="each-slide" key={index}>
+              <div
+                className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
+                style={{ 'backgroundImage': `url(${slideImage.url})` }}>
+                <div className="text-white text-left text-5xl lg:text-6xl font-bold container mx-auto  leading-tight mt-auto py-12">
+                  THE <span className="text-green-600">GREEN</span> <br />
+                  ECONOMIC ZONE
+                  <p className="text-base text-white pt-5 font-semibold">
+                    The Kaduna State government and KK Kingdom Nigeria Limited entered
+                    <br /> into a public private partnership to develop the green
+                    economic zone.
+                  </p>
+                </div>
+              </div>
+            </span>
+          ))}
+        </Slide>
+      </div>
+    )
+  }
 
   return (
     <div>
       <section>
-        <div className="fixed w-full">
-          {navbar ? <StickyHeader /> : <Header />}
-        </div>
-        <div
+        {/* <Slideshow /> */}
+
+        <span>
+          <div className="fixed w-full" style={{zIndex:100}}>
+            {navbar ? <StickyHeader /> : <Header />}
+          </div>
+          <Slideshow />
+          {/* <div
           className="w-full h-screen bg-no-repeat bg-cover flex flex-col justify-center items-left"
           style={{
             backgroundImage: "url(/assets/bg2.png)",
@@ -153,7 +155,9 @@ const Home = () => {
               economic zone.
             </p>
           </div>
-        </div>
+        </div>        */}
+        </span>
+
 
       </section>
       <section className="">
