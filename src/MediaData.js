@@ -4,7 +4,7 @@ const articles = [
     date: "June 6, 2022",
     title: "FOOD PROCESSING PARK",
     content:
-      " Equipped with plug and play modern infrastructures enabling entrepreneurs to setup food processing units close to crop production areas with an integrated and complete preservation infrastructure and facilities. Proin tristique mattis elementum. Nam nec gravida purus, sit amet varius quam. In porta molestie mi, eu aliquet odio tempus ut. Integer finibus arcu ac aliquet bibendum. Vivamus lacinia nibh nunc, ut fringilla diam porttitor vel. Etiam eget imperdiet orci. Proin justo.",
+      " Equipped with plug and play modern infrastructures enabling entrepreneurs to setup food processing units close to crop production areas with an integrated and complete preservation infrastructure and facilities. Proin tristique mattis elementum. Nam nec gravida purus, sit amet varius quam. In porta molestie mi, eu aliquet odio tempus ut. Integer finibus arcu ac aliquet bibendum. Vivamus lacinia nibh nunc, ut fringilla diam porttitor vel. Etiam eget imperdiet orci. Proin justo",
     img: "../assets/bgone.jpeg",
   },
   {
