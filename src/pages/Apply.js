@@ -64,7 +64,7 @@ const Apply = () => {
           //   backgroundImage: "url(/assets/aboutbg4.jpg)",
           // }}
         >
-          <div className="text-black w-full mt-20 mx-auto px-8 ">
+          <div className="text-black w-full container mx-auto px-8 ">
             <p className="text-2xl font-semibold py-8 text-gray-700">
               EXPRESSION OF INTEREST FORM
             </p>
@@ -73,7 +73,7 @@ const Apply = () => {
               meet the criteria before submission.
             </p>
             <div className="">
-              <form className="flex flex-col justify-center  w-full gap-4">
+              <form className="flex flex-col justify-center w-full gap-4">
                 <input
                   style={{
                     outline: "none",
@@ -95,7 +95,7 @@ const Apply = () => {
                     style={{
                       outline: "none",
                     }}
-                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black"
+                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black w-full"
                     type="text"
                     placeholder="Phone"
                   />
@@ -103,7 +103,7 @@ const Apply = () => {
                     style={{
                       outline: "none",
                     }}
-                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black"
+                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black w-full"
                     type="text"
                     placeholder="Type name"
                   />
@@ -123,7 +123,7 @@ const Apply = () => {
                     style={{
                       outline: "none",
                     }}
-                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black"
+                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black w-full"
                     type="text"
                     placeholder="Position"
                   />
@@ -131,7 +131,7 @@ const Apply = () => {
                     style={{
                       outline: "none",
                     }}
-                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black"
+                    className="p-2 bg-opacity-50 rounded border-b hover:border-b-2 border-green-600 text-black w-full"
                     type="text"
                     placeholder="Country"
                   />
