@@ -1,7 +1,12 @@
 import React from "react";
+import ComingSoon from "./ComingSoon";
 
 const News = () => {
-  return <div>coming Soon</div>;
+  return (
+    <div>
+      <ComingSoon />
+    </div>
+  );
 };
 
 export default News;
